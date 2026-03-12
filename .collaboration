@@ -16,37 +16,73 @@
 }, {
   "moduleType" : "theme",
   "moduleName" : "商务主题",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:44:31.8080328Z",
+  "resourcePaths" : [ "documents/theme/商务主题.json", "documents/theme/商务主题.metadata.json", "documents/theme/商务主题.refId.json", "documents/ref-object/phoenix.builtin.business.json", "documents/ref-object/phoenix.builtin.business.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "phoenix.builtin.business"
 }, {
   "moduleType" : "theme",
   "moduleName" : "教育主题",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:44:31.8080328Z",
+  "resourcePaths" : [ "documents/theme/教育主题.json", "documents/theme/教育主题.metadata.json", "documents/theme/教育主题.refId.json", "documents/ref-object/phoenix.builtin.education.json", "documents/ref-object/phoenix.builtin.education.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "phoenix.builtin.education"
 }, {
   "moduleType" : "theme",
   "moduleName" : "暗色主题",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:44:31.8080328Z",
+  "resourcePaths" : [ "documents/theme/暗色主题.json", "documents/theme/暗色主题.metadata.json", "documents/theme/暗色主题.refId.json", "documents/ref-object/phoenix.builtin.dark-night.json", "documents/ref-object/phoenix.builtin.dark-night.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "phoenix.builtin.dark-night"
 }, {
   "moduleType" : "theme",
   "moduleName" : "清新主题",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:44:31.8080328Z",
+  "resourcePaths" : [ "documents/theme/清新主题.json", "documents/theme/清新主题.metadata.json", "documents/theme/清新主题.refId.json", "documents/ref-object/phoenix.builtin.fresh.json", "documents/ref-object/phoenix.builtin.fresh.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "phoenix.builtin.fresh"
 }, {
   "moduleType" : "theme",
   "moduleName" : "电商主题",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:44:31.8080328Z",
+  "resourcePaths" : [ "documents/theme/电商主题.json", "documents/theme/电商主题.metadata.json", "documents/theme/电商主题.refId.json", "documents/ref-object/phoenix.builtin.ecommerce.json", "documents/ref-object/phoenix.builtin.ecommerce.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "phoenix.builtin.ecommerce"
 }, {
   "moduleType" : "theme",
   "moduleName" : "默认主题",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:44:31.8080328Z",
+  "resourcePaths" : [ "documents/theme/默认主题.json", "documents/theme/默认主题.metadata.json", "documents/theme/默认主题.refId.json", "documents/ref-object/phoenix.builtin.normal.json", "documents/ref-object/phoenix.builtin.normal.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "phoenix.builtin.normal"
 }, {
