@@ -630,4 +630,16 @@
   "resourcePaths" : [ "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.json", "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.metadata.json", "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.refId.json", "documents/ref-object/FROFF93Q.json", "documents/ref-object/FROFF93Q.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "FROFF93Q"
+}, {
+  "moduleType" : "static-resource",
+  "moduleName" : "文件/文件夹",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzhe",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:18:58.2056888Z",
+  "resourcePaths" : [ "documents/static-resource/文件/文件夹", "documents/static-resource/文件/文件夹/.f.metadata.json", "documents/static-resource/文件/文件夹/.f.json", "documents/ref-object/FKVL31H7.json", "documents/ref-object/FKVL31H7.metadata.json" ],
+  "resourceType" : "Folder",
+  "resourceId" : "FKVL31H7"
 } ]
