@@ -483,73 +483,31 @@
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "sqlserver/0312_1_Integer_0312_1_id",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:58:37.1173918Z",
-  "resourcePaths" : [ "documents/entity-relation/sqlserver/0312_1_Integer_0312_1_id.json", "documents/entity-relation/sqlserver/0312_1_Integer_0312_1_id.metadata.json", "documents/entity-relation/sqlserver/0312_1_Integer_0312_1_id.refId.json", "documents/ref-object/P4TMTBDT.json", "documents/ref-object/P4TMTBDT.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "P4TMTBDT"
 }, {
   "moduleType" : "entity-relation",
-  "moduleName" : "默认数据源/订单列表_id_订单内容_id",
-  "state" : "Remove",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:59:07.8376076Z",
-  "resourcePaths" : [ "documents/entity-relation/默认数据源/订单列表_id_订单内容_id.json", "documents/entity-relation/默认数据源/订单列表_id_订单内容_id.metadata.json", "documents/entity-relation/默认数据源/订单列表_id_订单内容_id.refId.json", "documents/ref-object/F9LV0MU5.json", "documents/ref-object/F9LV0MU5.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "F9LV0MU5"
-}, {
-  "moduleType" : "entity-relation",
   "moduleName" : "默认数据源",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:58:37.1173918Z",
-  "resourcePaths" : [ "documents/entity-relation/默认数据源", "documents/entity-relation/默认数据源/.f.metadata.json", "documents/entity-relation/默认数据源/.f.json", "documents/ref-object/VMGAZC82.json", "documents/ref-object/VMGAZC82.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "VMGAZC82"
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "mysql",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:58:37.1173918Z",
-  "resourcePaths" : [ "documents/entity-relation/mysql", "documents/entity-relation/mysql/.f.metadata.json", "documents/entity-relation/mysql/.f.json", "documents/ref-object/BL3YTIUN.json", "documents/ref-object/BL3YTIUN.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "BL3YTIUN"
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "sqlserver",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:58:37.1173918Z",
-  "resourcePaths" : [ "documents/entity-relation/sqlserver", "documents/entity-relation/sqlserver/.f.metadata.json", "documents/entity-relation/sqlserver/.f.json", "documents/ref-object/OH2O26HA.json", "documents/ref-object/OH2O26HA.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "OH2O26HA"
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "sqlserver/0312_1_id_allcolumns_id",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:58:37.1173918Z",
-  "resourcePaths" : [ "documents/entity-relation/sqlserver/0312_1_id_allcolumns_id.json", "documents/entity-relation/sqlserver/0312_1_id_allcolumns_id.metadata.json", "documents/entity-relation/sqlserver/0312_1_id_allcolumns_id.refId.json", "documents/ref-object/LI5V0I2V.json", "documents/ref-object/LI5V0I2V.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "LI5V0I2V"
 }, {
@@ -567,13 +525,7 @@
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "oracle",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:58:37.1173918Z",
-  "resourcePaths" : [ "documents/entity-relation/oracle", "documents/entity-relation/oracle/.f.metadata.json", "documents/entity-relation/oracle/.f.json", "documents/ref-object/OHK237FY.json", "documents/ref-object/OHK237FY.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "OHK237FY"
 }, {
