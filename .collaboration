@@ -470,30 +470,6 @@
   "resourceId" : "L17E4QAQ"
 }, {
   "moduleType" : "entity",
-  "moduleName" : "sqlserver/trace_xe_action_map",
-  "state" : "Remove",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:08:27.9448681Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/trace_xe_action_map.json", "documents/entity/sqlserver/trace_xe_action_map.metadata.json", "documents/entity/sqlserver/trace_xe_action_map.refId.json", "documents/ref-object/JQGTXM8M.json", "documents/ref-object/JQGTXM8M.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "JQGTXM8M"
-}, {
-  "moduleType" : "entity",
-  "moduleName" : "sqlserver/trace_xe_event_map",
-  "state" : "Remove",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:08:36.7044595Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/trace_xe_event_map.json", "documents/entity/sqlserver/trace_xe_event_map.metadata.json", "documents/entity/sqlserver/trace_xe_event_map.refId.json", "documents/ref-object/BFAHO30L.json", "documents/ref-object/BFAHO30L.metadata.json" ],
-  "resourceType" : "Document",
-  "resourceId" : "BFAHO30L"
-}, {
-  "moduleType" : "entity",
   "moduleName" : "sqlserver/vickytest",
   "state" : "Unlocked",
   "resourceType" : "Document",
