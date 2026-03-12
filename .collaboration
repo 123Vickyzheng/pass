@@ -722,14 +722,14 @@
   "resourceId" : "HFCHJZOP"
 }, {
   "moduleType" : "static-resource",
-  "moduleName" : "文件/文件夹",
+  "moduleName" : "文件/文件夹1111",
   "state" : "New",
   "lockedBy" : {
     "username" : "xa-dd3-vickyzh",
     "email" : "vicky.zheng@developertools.com"
   },
-  "lockDateTime" : "2026-03-12T09:09:53.7681509Z",
-  "resourcePaths" : [ "documents/static-resource/文件/文件夹", "documents/static-resource/文件/文件夹/.f.metadata.json", "documents/static-resource/文件/文件夹/.f.json", "documents/ref-object/ASIENS6U.json", "documents/ref-object/ASIENS6U.metadata.json" ],
+  "lockDateTime" : "2026-03-12T09:10:08.3525106Z",
+  "resourcePaths" : [ "documents/static-resource/文件/文件夹1111", "documents/static-resource/文件/文件夹1111/.f.metadata.json", "documents/static-resource/文件/文件夹1111/.f.json", "documents/ref-object/ASIENS6U.json", "documents/ref-object/ASIENS6U.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "ASIENS6U"
 } ]
