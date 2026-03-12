@@ -1,0 +1,9 @@
+{
+  "id" : "V6FDM914",
+  "name" : "客户端全局变量1",
+  "description" : "",
+  "dataType" : {
+    "typeId" : "String"
+  },
+  "localCacheType" : "cache"
+}
