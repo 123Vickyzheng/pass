@@ -642,4 +642,16 @@
   "resourcePaths" : [ "documents/static-resource/文件/文件夹", "documents/static-resource/文件/文件夹/.f.metadata.json", "documents/static-resource/文件/文件夹/.f.json", "documents/ref-object/FKVL31H7.json", "documents/ref-object/FKVL31H7.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "FKVL31H7"
+}, {
+  "moduleType" : "static-resource",
+  "moduleName" : "文件/文件夹/0311_6_副本3.phx",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzhe",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:19:08.8502725Z",
+  "resourcePaths" : [ "documents/static-resource/文件/文件夹/0311_6_副本3.phx.json", "documents/static-resource/文件/文件夹/0311_6_副本3.phx.metadata.json", "documents/static-resource/文件/文件夹/0311_6_副本3.phx.refId.json", "documents/ref-object/HMP2R2F4.json", "documents/ref-object/HMP2R2F4.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "HMP2R2F4"
 } ]
