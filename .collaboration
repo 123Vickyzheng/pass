@@ -662,14 +662,14 @@
   "resourceId" : "V6FDM914"
 }, {
   "moduleType" : "static-resource",
-  "moduleName" : "文件/文件夹",
+  "moduleName" : "文件/文件夹123",
   "state" : "New",
   "lockedBy" : {
     "username" : "xa-dd3-vickyzh",
     "email" : "vicky.zheng@developertools.com"
   },
-  "lockDateTime" : "2026-03-12T09:04:58.2607395Z",
-  "resourcePaths" : [ "documents/static-resource/文件/文件夹", "documents/static-resource/文件/文件夹/.f.metadata.json", "documents/static-resource/文件/文件夹/.f.json", "documents/ref-object/ZC6EE4VC.json", "documents/ref-object/ZC6EE4VC.metadata.json" ],
+  "lockDateTime" : "2026-03-12T09:05:52.3839731Z",
+  "resourcePaths" : [ "documents/static-resource/文件/文件夹123", "documents/static-resource/文件/文件夹123/.f.metadata.json", "documents/static-resource/文件/文件夹123/.f.json", "documents/ref-object/ZC6EE4VC.json", "documents/ref-object/ZC6EE4VC.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "ZC6EE4VC"
 } ]
