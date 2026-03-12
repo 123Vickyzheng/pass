@@ -516,4 +516,40 @@
   "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "LI5V0I2V"
+}, {
+  "moduleType" : "datasource",
+  "moduleName" : "oracle",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T07:49:38.4021404Z",
+  "resourcePaths" : [ "documents/datasource/oracle.json", "documents/datasource/oracle.metadata.json", "documents/datasource/oracle.refId.json", "documents/ref-object/I8V5U0CS.json", "documents/ref-object/I8V5U0CS.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "I8V5U0CS"
+}, {
+  "moduleType" : "entity",
+  "moduleName" : "oracle",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T07:49:38.4021404Z",
+  "resourcePaths" : [ "documents/entity/oracle", "documents/entity/oracle/.f.metadata.json", "documents/entity/oracle/.f.json", "documents/ref-object/H51QUVAT.json", "documents/ref-object/H51QUVAT.metadata.json" ],
+  "resourceType" : "Folder",
+  "resourceId" : "H51QUVAT"
+}, {
+  "moduleType" : "entity-relation",
+  "moduleName" : "oracle",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T07:49:38.4021404Z",
+  "resourcePaths" : [ "documents/entity-relation/oracle", "documents/entity-relation/oracle/.f.metadata.json", "documents/entity-relation/oracle/.f.json", "documents/ref-object/OHK237FY.json", "documents/ref-object/OHK237FY.metadata.json" ],
+  "resourceType" : "Folder",
+  "resourceId" : "OHK237FY"
 } ]
