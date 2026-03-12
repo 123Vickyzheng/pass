@@ -720,4 +720,16 @@
   "resourcePaths" : [ "documents/logic/集成/外部接口/外部接口1.json", "documents/logic/集成/外部接口/外部接口1.metadata.json", "documents/logic/集成/外部接口/外部接口1.refId.json", "documents/ref-object/HFCHJZOP.json", "documents/ref-object/HFCHJZOP.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "HFCHJZOP"
+}, {
+  "moduleType" : "static-resource",
+  "moduleName" : "文件/文件夹",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:09:53.7681509Z",
+  "resourcePaths" : [ "documents/static-resource/文件/文件夹", "documents/static-resource/文件/文件夹/.f.metadata.json", "documents/static-resource/文件/文件夹/.f.json", "documents/ref-object/ASIENS6U.json", "documents/ref-object/ASIENS6U.metadata.json" ],
+  "resourceType" : "Folder",
+  "resourceId" : "ASIENS6U"
 } ]
