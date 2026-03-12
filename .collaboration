@@ -310,7 +310,13 @@
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/系统页面/404未发现页面",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:40:57.5427378Z",
+  "resourcePaths" : [ "documents/page/PC/系统页面/404未发现页面.json", "documents/page/PC/系统页面/404未发现页面.metadata.json", "documents/page/PC/系统页面/404未发现页面.refId.json" ],
   "resourceType" : "Document",
   "resourceId" : "MAEDHUVA"
 }, {
