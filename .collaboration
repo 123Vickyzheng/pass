@@ -510,4 +510,16 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "OH2O26HA"
+}, {
+  "moduleType" : "entity-relation",
+  "moduleName" : "sqlserver/0312_1_id_allcolumns_id",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T07:10:28.3562255Z",
+  "resourcePaths" : [ "documents/entity-relation/sqlserver/0312_1_id_allcolumns_id.json", "documents/entity-relation/sqlserver/0312_1_id_allcolumns_id.metadata.json", "documents/entity-relation/sqlserver/0312_1_id_allcolumns_id.refId.json", "documents/ref-object/LI5V0I2V.json", "documents/ref-object/LI5V0I2V.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "LI5V0I2V"
 } ]
