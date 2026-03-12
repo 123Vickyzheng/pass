@@ -382,65 +382,35 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/实体1",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:29.0404725Z",
-  "resourcePaths" : [ "documents/entity/默认数据源/实体1.json", "documents/entity/默认数据源/实体1.metadata.json", "documents/entity/默认数据源/实体1.refId.json", "documents/ref-object/ULGLZQQJ.json", "documents/ref-object/ULGLZQQJ.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "ULGLZQQJ",
   "exclusiveType" : "N2RY8KXC"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/实体2",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:29.0404725Z",
-  "resourcePaths" : [ "documents/entity/默认数据源/实体2.json", "documents/entity/默认数据源/实体2.metadata.json", "documents/entity/默认数据源/实体2.refId.json", "documents/ref-object/N2RY8KXC.json", "documents/ref-object/N2RY8KXC.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "G8PRNMDY",
   "exclusiveType" : "N2RY8KXC"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/订单内容",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:29.0404725Z",
-  "resourcePaths" : [ "documents/entity/默认数据源/订单内容.json", "documents/entity/默认数据源/订单内容.metadata.json", "documents/entity/默认数据源/订单内容.refId.json", "documents/ref-object/N2RY8KXC.json", "documents/ref-object/N2RY8KXC.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "NACAL8DK",
   "exclusiveType" : "N2RY8KXC"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/订单列表aaa",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:29.0404725Z",
-  "resourcePaths" : [ "documents/entity/默认数据源/订单列表aaa.json", "documents/entity/默认数据源/订单列表aaa.metadata.json", "documents/entity/默认数据源/订单列表aaa.refId.json", "documents/ref-object/N2RY8KXC.json", "documents/ref-object/N2RY8KXC.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "QP5ICTAT",
   "exclusiveType" : "N2RY8KXC"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/默认实体",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:29.0404725Z",
-  "resourcePaths" : [ "documents/entity/默认数据源/默认实体.json", "documents/entity/默认数据源/默认实体.metadata.json", "documents/entity/默认数据源/默认实体.refId.json", "documents/ref-object/N2RY8KXC.json", "documents/ref-object/N2RY8KXC.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "X2K0HU8H",
   "exclusiveType" : "N2RY8KXC"
@@ -465,97 +435,49 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/0312_1",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:51.8494998Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/0312_1.json", "documents/entity/sqlserver/0312_1.metadata.json", "documents/entity/sqlserver/0312_1.refId.json", "documents/ref-object/CMGDZNAG.json", "documents/ref-object/CMGDZNAG.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "CMGDZNAG"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/AlexTest1",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:51.8494998Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/AlexTest1.json", "documents/entity/sqlserver/AlexTest1.metadata.json", "documents/entity/sqlserver/AlexTest1.refId.json", "documents/ref-object/WU6ITM6N.json", "documents/ref-object/WU6ITM6N.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "WU6ITM6N"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/allcolumns",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:51.8494998Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/allcolumns.json", "documents/entity/sqlserver/allcolumns.metadata.json", "documents/entity/sqlserver/allcolumns.refId.json", "documents/ref-object/DHFLF3ID.json", "documents/ref-object/DHFLF3ID.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "DHFLF3ID"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/Entity1",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:51.8494998Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/Entity1.json", "documents/entity/sqlserver/Entity1.metadata.json", "documents/entity/sqlserver/Entity1.refId.json", "documents/ref-object/QUUPS7R4.json", "documents/ref-object/QUUPS7R4.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "QUUPS7R4"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/newtest",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:51.8494998Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/newtest.json", "documents/entity/sqlserver/newtest.metadata.json", "documents/entity/sqlserver/newtest.refId.json", "documents/ref-object/O0G5E9IA.json", "documents/ref-object/O0G5E9IA.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "O0G5E9IA"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/newtest1",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:51.8494998Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/newtest1.json", "documents/entity/sqlserver/newtest1.metadata.json", "documents/entity/sqlserver/newtest1.refId.json", "documents/ref-object/L17E4QAQ.json", "documents/ref-object/L17E4QAQ.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "L17E4QAQ"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/vickytest",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:51.8504998Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/vickytest.json", "documents/entity/sqlserver/vickytest.metadata.json", "documents/entity/sqlserver/vickytest.refId.json", "documents/ref-object/XWT9J847.json", "documents/ref-object/XWT9J847.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "XWT9J847"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/vickytest1",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T07:41:51.8504998Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/vickytest1.json", "documents/entity/sqlserver/vickytest1.metadata.json", "documents/entity/sqlserver/vickytest1.refId.json", "documents/ref-object/ON9Z2H9D.json", "documents/ref-object/ON9Z2H9D.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "ON9Z2H9D"
 }, {
