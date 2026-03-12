@@ -696,4 +696,16 @@
   "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "V6FDM914"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "集成/开放接口/文件夹1",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:08:12.0301041Z",
+  "resourcePaths" : [ "documents/logic/集成/开放接口/文件夹1", "documents/logic/集成/开放接口/文件夹1/.f.metadata.json", "documents/logic/集成/开放接口/文件夹1/.f.json", "documents/ref-object/ZUU4ZCVI.json", "documents/ref-object/ZUU4ZCVI.metadata.json" ],
+  "resourceType" : "Folder",
+  "resourceId" : "ZUU4ZCVI"
 } ]
