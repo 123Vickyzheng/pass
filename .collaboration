@@ -376,41 +376,77 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:05.9788662Z",
+  "resourcePaths" : [ "documents/entity/默认数据源", "documents/entity/默认数据源/.f.metadata.json", "documents/entity/默认数据源/.f.json", "documents/ref-object/LM9LPCW0.json", "documents/ref-object/LM9LPCW0.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "LM9LPCW0"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/实体1",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:05.9788662Z",
+  "resourcePaths" : [ "documents/entity/默认数据源/实体1.json", "documents/entity/默认数据源/实体1.metadata.json", "documents/entity/默认数据源/实体1.refId.json", "documents/ref-object/ULGLZQQJ.json", "documents/ref-object/ULGLZQQJ.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "ULGLZQQJ",
   "exclusiveType" : "N2RY8KXC"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/实体2",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:05.9788662Z",
+  "resourcePaths" : [ "documents/entity/默认数据源/实体2.json", "documents/entity/默认数据源/实体2.metadata.json", "documents/entity/默认数据源/实体2.refId.json", "documents/ref-object/G8PRNMDY.json", "documents/ref-object/G8PRNMDY.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "G8PRNMDY",
   "exclusiveType" : "N2RY8KXC"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/订单内容",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:05.9788662Z",
+  "resourcePaths" : [ "documents/entity/默认数据源/订单内容.json", "documents/entity/默认数据源/订单内容.metadata.json", "documents/entity/默认数据源/订单内容.refId.json", "documents/ref-object/NACAL8DK.json", "documents/ref-object/NACAL8DK.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "NACAL8DK",
   "exclusiveType" : "N2RY8KXC"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/订单列表aaa",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:05.9788662Z",
+  "resourcePaths" : [ "documents/entity/默认数据源/订单列表aaa.json", "documents/entity/默认数据源/订单列表aaa.metadata.json", "documents/entity/默认数据源/订单列表aaa.refId.json", "documents/ref-object/QP5ICTAT.json", "documents/ref-object/QP5ICTAT.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "QP5ICTAT",
   "exclusiveType" : "N2RY8KXC"
 }, {
   "moduleType" : "entity",
   "moduleName" : "默认数据源/默认实体",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:05.9788662Z",
+  "resourcePaths" : [ "documents/entity/默认数据源/默认实体.json", "documents/entity/默认数据源/默认实体.metadata.json", "documents/entity/默认数据源/默认实体.refId.json", "documents/ref-object/X2K0HU8H.json", "documents/ref-object/X2K0HU8H.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "X2K0HU8H",
   "exclusiveType" : "N2RY8KXC"
