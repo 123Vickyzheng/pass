@@ -636,4 +636,16 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "OHK237FY"
+}, {
+  "moduleType" : "global-variable",
+  "moduleName" : "服务端全局变量/服务端全局变量1",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:50:27.0041613Z",
+  "resourcePaths" : [ "documents/global-variable/服务端全局变量/服务端全局变量1.json", "documents/global-variable/服务端全局变量/服务端全局变量1.metadata.json", "documents/global-variable/服务端全局变量/服务端全局变量1.refId.json", "documents/ref-object/ZJY947SD.json", "documents/ref-object/ZJY947SD.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "ZJY947SD"
 } ]
