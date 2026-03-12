@@ -471,7 +471,13 @@
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/trace_xe_action_map",
-  "state" : "Unlocked",
+  "state" : "Remove",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T07:08:27.9448681Z",
+  "resourcePaths" : [ "documents/entity/sqlserver/trace_xe_action_map.json", "documents/entity/sqlserver/trace_xe_action_map.metadata.json", "documents/entity/sqlserver/trace_xe_action_map.refId.json", "documents/ref-object/JQGTXM8M.json", "documents/ref-object/JQGTXM8M.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "JQGTXM8M"
 }, {
