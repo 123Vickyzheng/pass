@@ -135,10 +135,16 @@
   "resourceId" : "TJ3EW0N4"
 }, {
   "moduleType" : "static-resource",
-  "moduleName" : "文件/文件夹1111",
+  "moduleName" : "文件/文件夹",
   "state" : "Unlocked",
   "resourceType" : "Folder",
-  "resourceId" : "ASIENS6U"
+  "resourceId" : "FKVL31H7"
+}, {
+  "moduleType" : "static-resource",
+  "moduleName" : "文件/文件夹/0311_6_副本3.phx",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "HMP2R2F4"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑",
@@ -313,6 +319,12 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "open-api-auth-method"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "集成/开放接口/鉴权方式/鉴权方式1",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "FROFF93Q"
 }, {
   "moduleType" : "logic",
   "moduleName" : "集成/开放接口/文件夹1",
