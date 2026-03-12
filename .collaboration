@@ -82,151 +82,301 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/实体1",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/实体1", "documents/logic/服务端逻辑/实体1/.f.metadata.json", "documents/logic/服务端逻辑/实体1/.f.json", "documents/ref-object/ZYSHUP1K.json", "documents/ref-object/ZYSHUP1K.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "ZYSHUP1K"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/实体1/创建实体1",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/实体1/创建实体1.json", "documents/logic/服务端逻辑/实体1/创建实体1.metadata.json", "documents/logic/服务端逻辑/实体1/创建实体1.refId.json", "documents/ref-object/ZTP8TUI1.json", "documents/ref-object/ZTP8TUI1.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "ZTP8TUI1"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/实体1/创建或更改实体1",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/实体1/创建或更改实体1.json", "documents/logic/服务端逻辑/实体1/创建或更改实体1.metadata.json", "documents/logic/服务端逻辑/实体1/创建或更改实体1.refId.json", "documents/ref-object/A4RBLTEV.json", "documents/ref-object/A4RBLTEV.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "A4RBLTEV"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/实体1/删除实体1",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/实体1/删除实体1.json", "documents/logic/服务端逻辑/实体1/删除实体1.metadata.json", "documents/logic/服务端逻辑/实体1/删除实体1.refId.json", "documents/ref-object/GIU13NAH.json", "documents/ref-object/GIU13NAH.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "GIU13NAH"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/实体1/更改实体1",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/实体1/更改实体1.json", "documents/logic/服务端逻辑/实体1/更改实体1.metadata.json", "documents/logic/服务端逻辑/实体1/更改实体1.refId.json", "documents/ref-object/O4DSHNIC.json", "documents/ref-object/O4DSHNIC.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "O4DSHNIC"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/实体1/查询实体1",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/实体1/查询实体1.json", "documents/logic/服务端逻辑/实体1/查询实体1.metadata.json", "documents/logic/服务端逻辑/实体1/查询实体1.refId.json", "documents/ref-object/OZQY3GLT.json", "documents/ref-object/OZQY3GLT.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "OZQY3GLT"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/实体1/查询实体1详情",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/实体1/查询实体1详情.json", "documents/logic/服务端逻辑/实体1/查询实体1详情.metadata.json", "documents/logic/服务端逻辑/实体1/查询实体1详情.refId.json", "documents/ref-object/ETSPUPC2.json", "documents/ref-object/ETSPUPC2.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "ETSPUPC2"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/系统逻辑",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/系统逻辑", "documents/logic/服务端逻辑/系统逻辑/.f.metadata.json", "documents/logic/服务端逻辑/系统逻辑/.f.json", "documents/ref-object/MC5E98LH.json", "documents/ref-object/MC5E98LH.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "MC5E98LH"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/系统逻辑/登录",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/系统逻辑/登录.json", "documents/logic/服务端逻辑/系统逻辑/登录.metadata.json", "documents/logic/服务端逻辑/系统逻辑/登录.refId.json", "documents/ref-object/W4FO3QLO.json", "documents/ref-object/W4FO3QLO.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "W4FO3QLO"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/系统逻辑/获取登录配置",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/系统逻辑/获取登录配置.json", "documents/logic/服务端逻辑/系统逻辑/获取登录配置.metadata.json", "documents/logic/服务端逻辑/系统逻辑/获取登录配置.refId.json", "documents/ref-object/CUEU6039.json", "documents/ref-object/CUEU6039.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "CUEU6039"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/默认实体",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/默认实体", "documents/logic/服务端逻辑/默认实体/.f.metadata.json", "documents/logic/服务端逻辑/默认实体/.f.json", "documents/ref-object/I056C5XC.json", "documents/ref-object/I056C5XC.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "I056C5XC"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/默认实体/创建或更改默认实体",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/默认实体/创建或更改默认实体.json", "documents/logic/服务端逻辑/默认实体/创建或更改默认实体.metadata.json", "documents/logic/服务端逻辑/默认实体/创建或更改默认实体.refId.json", "documents/ref-object/KUWRCZ1N.json", "documents/ref-object/KUWRCZ1N.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "KUWRCZ1N"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/默认实体/创建默认实体",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/默认实体/创建默认实体.json", "documents/logic/服务端逻辑/默认实体/创建默认实体.metadata.json", "documents/logic/服务端逻辑/默认实体/创建默认实体.refId.json", "documents/ref-object/H7SZD24F.json", "documents/ref-object/H7SZD24F.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "H7SZD24F"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/默认实体/删除默认实体",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/默认实体/删除默认实体.json", "documents/logic/服务端逻辑/默认实体/删除默认实体.metadata.json", "documents/logic/服务端逻辑/默认实体/删除默认实体.refId.json", "documents/ref-object/QR8Z9PHP.json", "documents/ref-object/QR8Z9PHP.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "QR8Z9PHP"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/默认实体/更改默认实体",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/默认实体/更改默认实体.json", "documents/logic/服务端逻辑/默认实体/更改默认实体.metadata.json", "documents/logic/服务端逻辑/默认实体/更改默认实体.refId.json", "documents/ref-object/P7UD2R8A.json", "documents/ref-object/P7UD2R8A.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "P7UD2R8A"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/默认实体/查询默认实体",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/默认实体/查询默认实体.json", "documents/logic/服务端逻辑/默认实体/查询默认实体.metadata.json", "documents/logic/服务端逻辑/默认实体/查询默认实体.refId.json", "documents/ref-object/OY0D5RZH.json", "documents/ref-object/OY0D5RZH.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "OY0D5RZH"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/默认实体/查询默认实体详情",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/默认实体/查询默认实体详情.json", "documents/logic/服务端逻辑/默认实体/查询默认实体详情.metadata.json", "documents/logic/服务端逻辑/默认实体/查询默认实体详情.refId.json", "documents/ref-object/QADP6D5Y.json", "documents/ref-object/QADP6D5Y.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "QADP6D5Y"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/默认实体/逻辑1",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/默认实体/逻辑1.json", "documents/logic/服务端逻辑/默认实体/逻辑1.metadata.json", "documents/logic/服务端逻辑/默认实体/逻辑1.refId.json", "documents/ref-object/IZKXDVL5.json", "documents/ref-object/IZKXDVL5.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "IZKXDVL5"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns", "documents/logic/服务端逻辑/allcolumns/.f.metadata.json", "documents/logic/服务端逻辑/allcolumns/.f.json", "documents/ref-object/T9P9RU9D.json", "documents/ref-object/T9P9RU9D.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "T9P9RU9D"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/创建allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/创建allcolumns.json", "documents/logic/服务端逻辑/allcolumns/创建allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/创建allcolumns.refId.json", "documents/ref-object/CNG3C7K0.json", "documents/ref-object/CNG3C7K0.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "CNG3C7K0"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/创建或更改allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/创建或更改allcolumns.json", "documents/logic/服务端逻辑/allcolumns/创建或更改allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/创建或更改allcolumns.refId.json", "documents/ref-object/K6VNDEVE.json", "documents/ref-object/K6VNDEVE.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "K6VNDEVE"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/更改allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/更改allcolumns.json", "documents/logic/服务端逻辑/allcolumns/更改allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/更改allcolumns.refId.json", "documents/ref-object/ZONZVF0A.json", "documents/ref-object/ZONZVF0A.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "ZONZVF0A"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/删除allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/删除allcolumns.json", "documents/logic/服务端逻辑/allcolumns/删除allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/删除allcolumns.refId.json", "documents/ref-object/XP0JA7GU.json", "documents/ref-object/XP0JA7GU.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "XP0JA7GU"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/查询allcolumns",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/查询allcolumns.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns.metadata.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns.refId.json", "documents/ref-object/VH5Y1229.json", "documents/ref-object/VH5Y1229.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "VH5Y1229"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/allcolumns/查询allcolumns详情",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:06:59.0604829Z",
+  "resourcePaths" : [ "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.metadata.json", "documents/logic/服务端逻辑/allcolumns/查询allcolumns详情.refId.json", "documents/ref-object/KMEGHD8E.json", "documents/ref-object/KMEGHD8E.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "KMEGHD8E"
 }, {
