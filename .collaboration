@@ -94,7 +94,13 @@
 }, {
   "moduleType" : "global-event-handler",
   "moduleName" : "客户端全局事件/requestCompleted",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:45:00.002848Z",
+  "resourcePaths" : [ "documents/global-event-handler/客户端全局事件/requestCompleted.json", "documents/global-event-handler/客户端全局事件/requestCompleted.metadata.json", "documents/global-event-handler/客户端全局事件/requestCompleted.refId.json", "documents/ref-object/ZK6AXD86.json", "documents/ref-object/ZK6AXD86.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "ZK6AXD86"
 }, {
