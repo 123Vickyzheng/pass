@@ -1,0 +1,49 @@
+{
+  "id" : "FROFF93Q",
+  "name" : "鉴权方式1",
+  "variables" : [ ],
+  "parameters" : [ ],
+  "returnValues" : [ {
+    "id" : "RXBEW7IZ",
+    "name" : "返回值1",
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "readonly" : true
+  } ],
+  "enableTransaction" : true,
+  "apiScope" : "openApi",
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "O8IJYR23",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 80,
+          "y" : 200
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "ORLMA1Q1",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 800,
+          "y" : 200
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "X7385A9B",
+      "sourceId" : "O8IJYR23",
+      "targetId" : "ORLMA1Q1",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}
