@@ -1,0 +1,16 @@
+{
+  "id" : "FROFF93Q",
+  "name" : "鉴权方式1",
+  "enableTransaction" : true,
+  "parameters" : [ ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "RXBEW7IZ",
+    "name" : "返回值1",
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "readonly" : true
+  } ],
+  "apiScope" : "openApi"
+}
