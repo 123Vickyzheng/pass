@@ -1,13 +1,14 @@
 {
   "id" : "HFCHJZOP",
   "name" : "外部接口1",
+  "integration" : "externalApi",
   "method" : "GET",
   "parameters" : [ ],
   "returnValues" : [ {
     "id" : "C6KQXGWP",
     "name" : "response",
     "dataType" : {
-      "typeId" : "Auto"
+      "typeId" : "String"
     },
     "data" : {
       "source" : "body"
@@ -33,11 +34,10 @@
     },
     "hidden" : true
   } ],
-  "integration" : "externalApi",
   "config" : {
     "url" : {
       "type" : "literal",
-      "literal" : ""
+      "literal" : "http://baidu.com"
     },
     "requestConfig" : {
       "queryParams" : [ ],
@@ -69,6 +69,10 @@
     },
     "responseConfig" : {
       "description" : ""
+    },
+    "testConfig" : {
+      "parameterValues" : { }
     }
-  }
+  },
+  "description" : ""
 }
