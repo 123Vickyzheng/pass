@@ -364,19 +364,37 @@
 }, {
   "moduleType" : "datasource",
   "moduleName" : "默认数据源",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:28.9233391Z",
+  "resourcePaths" : [ "documents/datasource/默认数据源.json", "documents/datasource/默认数据源.metadata.json", "documents/datasource/默认数据源.refId.json", "documents/ref-object/N2RY8KXC.json", "documents/ref-object/N2RY8KXC.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "N2RY8KXC"
 }, {
   "moduleType" : "datasource",
   "moduleName" : "mysql",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:28.9233391Z",
+  "resourcePaths" : [ "documents/datasource/mysql.json", "documents/datasource/mysql.metadata.json", "documents/datasource/mysql.refId.json", "documents/ref-object/BNZFT4X8.json", "documents/ref-object/BNZFT4X8.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "BNZFT4X8"
 }, {
   "moduleType" : "datasource",
   "moduleName" : "sqlserver",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:28.9233391Z",
+  "resourcePaths" : [ "documents/datasource/sqlserver.json", "documents/datasource/sqlserver.metadata.json", "documents/datasource/sqlserver.refId.json", "documents/ref-object/ZWBY14AI.json", "documents/ref-object/ZWBY14AI.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "ZWBY14AI"
 }, {
@@ -609,7 +627,13 @@
 }, {
   "moduleType" : "datasource",
   "moduleName" : "oracle",
-  "state" : "Unlocked",
+  "state" : "Edit",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:02:28.9233391Z",
+  "resourcePaths" : [ "documents/datasource/oracle.json", "documents/datasource/oracle.metadata.json", "documents/datasource/oracle.refId.json", "documents/ref-object/I8V5U0CS.json", "documents/ref-object/I8V5U0CS.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "I8V5U0CS"
 }, {
