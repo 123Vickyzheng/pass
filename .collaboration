@@ -549,12 +549,12 @@
 }, {
   "moduleType" : "global-variable",
   "moduleName" : "客户端全局变量/客户端全局变量1",
-  "state" : "Edit",
+  "state" : "Remove",
   "lockedBy" : {
     "username" : "xa-dd3-vickyzh",
     "email" : "vicky.zheng@developertools.com"
   },
-  "lockDateTime" : "2026-03-12T08:52:58.9893782Z",
+  "lockDateTime" : "2026-03-12T08:54:27.1073093Z",
   "resourcePaths" : [ "documents/global-variable/客户端全局变量/客户端全局变量1.json", "documents/global-variable/客户端全局变量/客户端全局变量1.metadata.json", "documents/global-variable/客户端全局变量/客户端全局变量1.refId.json", "documents/ref-object/V6FDM914.json", "documents/ref-object/V6FDM914.metadata.json" ],
   "resourceType" : "Document",
   "resourceId" : "V6FDM914"
@@ -570,4 +570,16 @@
   "resourcePaths" : [ "documents/global-variable/客户端全局变量/文件夹1aaa", "documents/global-variable/客户端全局变量/文件夹1aaa/.f.metadata.json", "documents/global-variable/客户端全局变量/文件夹1aaa/.f.json", "documents/ref-object/QC5LT7OT.json", "documents/ref-object/QC5LT7OT.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "QC5LT7OT"
+}, {
+  "moduleType" : "global-variable",
+  "moduleName" : "客户端全局变量/文件夹1aaa/客户端全局变量1",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T08:54:27.1073093Z",
+  "resourcePaths" : [ "documents/global-variable/客户端全局变量/文件夹1aaa/客户端全局变量1.json", "documents/global-variable/客户端全局变量/文件夹1aaa/客户端全局变量1.metadata.json", "documents/global-variable/客户端全局变量/文件夹1aaa/客户端全局变量1.refId.json", "documents/ref-object/V6FDM914.json", "documents/ref-object/V6FDM914.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "V6FDM914"
 } ]
