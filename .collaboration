@@ -708,4 +708,16 @@
   "resourcePaths" : [ "documents/logic/集成/开放接口/文件夹1", "documents/logic/集成/开放接口/文件夹1/.f.metadata.json", "documents/logic/集成/开放接口/文件夹1/.f.json", "documents/ref-object/ZUU4ZCVI.json", "documents/ref-object/ZUU4ZCVI.metadata.json" ],
   "resourceType" : "Folder",
   "resourceId" : "ZUU4ZCVI"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "集成/外部接口/外部接口1",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:08:26.4482734Z",
+  "resourcePaths" : [ "documents/logic/集成/外部接口/外部接口1.json", "documents/logic/集成/外部接口/外部接口1.metadata.json", "documents/logic/集成/外部接口/外部接口1.refId.json", "documents/ref-object/HFCHJZOP.json", "documents/ref-object/HFCHJZOP.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "HFCHJZOP"
 } ]
