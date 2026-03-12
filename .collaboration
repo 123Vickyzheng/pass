@@ -564,4 +564,16 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "ASIENS6U"
+}, {
+  "moduleType" : "static-resource",
+  "moduleName" : "文件/文件夹1111/JS文件1.js",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzh",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:15:56.3337898Z",
+  "resourcePaths" : [ "documents/static-resource/文件/文件夹1111/JS文件1.js.json", "documents/static-resource/文件/文件夹1111/JS文件1.js.metadata.json", "documents/static-resource/文件/文件夹1111/JS文件1.js.refId.json", "documents/ref-object/X5ZE335G.json", "documents/ref-object/X5ZE335G.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "X5ZE335G"
 } ]
