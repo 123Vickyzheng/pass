@@ -161,7 +161,7 @@
       "typeId" : "DateTime"
     },
     "dbType" : "DATETIMEOFFSET",
-    "jdbcType" : 2014,
+    "jdbcType" : -155,
     "isPrimaryKey" : false,
     "isUnique" : false,
     "isRequired" : false,
@@ -169,7 +169,10 @@
     "defaultValue" : null,
     "isAutoIncrement" : false,
     "columnKind" : "physical",
-    "width" : 155
+    "width" : 155,
+    "precision" : 34,
+    "scale" : 7,
+    "columnLength" : 34
   }, {
     "type" : "entityColumnModel",
     "id" : "AJTNBU94",

@@ -3,7 +3,6 @@
   "dataSourceId" : "N2RY8KXC",
   "tableName" : "实体2",
   "name" : "实体2",
-  "showBuiltinColumns" : false,
   "columns" : [ {
     "id" : "ZBOHZRUC",
     "columnName" : "id",
