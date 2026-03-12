@@ -3,7 +3,6 @@
   "dataSourceId" : "N2RY8KXC",
   "tableName" : "订单列表aaa",
   "name" : "订单列表aaa",
-  "showBuiltinColumns" : false,
   "columns" : [ {
     "type" : "entityColumnModel",
     "id" : "NNDDF1V1",
