@@ -1,0 +1,37 @@
+{
+  "id" : "HFCHJZOP",
+  "name" : "外部接口1",
+  "integration" : "externalApi",
+  "method" : "GET",
+  "parameters" : [ ],
+  "returnValues" : [ {
+    "id" : "C6KQXGWP",
+    "name" : "response",
+    "dataType" : {
+      "typeId" : "Auto"
+    },
+    "data" : {
+      "source" : "body"
+    }
+  }, {
+    "id" : "A7R5SSXH",
+    "name" : "rawResponse",
+    "dataType" : {
+      "typeId" : "KJHGF4RE"
+    },
+    "data" : {
+      "source" : "raw"
+    },
+    "hidden" : true
+  }, {
+    "id" : "SK4QSIIY",
+    "name" : "errorResponse",
+    "dataType" : {
+      "typeId" : "Auto"
+    },
+    "data" : {
+      "source" : "error"
+    },
+    "hidden" : true
+  } ]
+}

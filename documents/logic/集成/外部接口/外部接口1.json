@@ -1,0 +1,74 @@
+{
+  "id" : "HFCHJZOP",
+  "name" : "外部接口1",
+  "method" : "GET",
+  "parameters" : [ ],
+  "returnValues" : [ {
+    "id" : "C6KQXGWP",
+    "name" : "response",
+    "dataType" : {
+      "typeId" : "Auto"
+    },
+    "data" : {
+      "source" : "body"
+    }
+  }, {
+    "id" : "A7R5SSXH",
+    "name" : "rawResponse",
+    "dataType" : {
+      "typeId" : "KJHGF4RE"
+    },
+    "data" : {
+      "source" : "raw"
+    },
+    "hidden" : true
+  }, {
+    "id" : "SK4QSIIY",
+    "name" : "errorResponse",
+    "dataType" : {
+      "typeId" : "Auto"
+    },
+    "data" : {
+      "source" : "error"
+    },
+    "hidden" : true
+  } ],
+  "integration" : "externalApi",
+  "config" : {
+    "url" : {
+      "type" : "literal",
+      "literal" : ""
+    },
+    "requestConfig" : {
+      "queryParams" : [ ],
+      "bodyConfig" : {
+        "contentType" : "none",
+        "content" : {
+          "form-data" : [ ],
+          "json" : {
+            "id" : "root",
+            "name" : "root",
+            "dataType" : {
+              "typeId" : "AnonymousStructure"
+            },
+            "value" : {
+              "type" : "literal",
+              "literal" : ""
+            },
+            "children" : [ ],
+            "mode" : "children"
+          },
+          "xml" : "",
+          "text" : ""
+        }
+      },
+      "headerParams" : [ ],
+      "authConfig" : {
+        "type" : "none"
+      }
+    },
+    "responseConfig" : {
+      "description" : ""
+    }
+  }
+}
