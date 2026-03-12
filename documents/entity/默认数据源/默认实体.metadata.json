@@ -3,6 +3,7 @@
   "dataSourceId" : "N2RY8KXC",
   "tableName" : "默认实体",
   "name" : "默认实体",
+  "showBuiltinColumns" : false,
   "columns" : [ {
     "id" : "GQ7XJZK0",
     "columnName" : "id",

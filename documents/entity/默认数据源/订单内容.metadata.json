@@ -3,6 +3,7 @@
   "dataSourceId" : "N2RY8KXC",
   "tableName" : "订单内容",
   "name" : "订单内容",
+  "showBuiltinColumns" : false,
   "columns" : [ {
     "id" : "CR11UD55",
     "columnName" : "id",

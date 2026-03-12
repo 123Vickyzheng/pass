@@ -1,0 +1,75 @@
+{
+  "type" : "entityModel",
+  "id" : "JQGTXM8M",
+  "dataSourceId" : "ZWBY14AI",
+  "schema" : "sys",
+  "name" : "trace_xe_action_map",
+  "tableName" : "trace_xe_action_map",
+  "showBuiltinColumns" : false,
+  "columns" : [ {
+    "type" : "entityColumnModel",
+    "id" : "RJUKBQFX",
+    "name" : "trace_column_id",
+    "columnName" : "trace_column_id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "dbType" : "SMALLINT",
+    "jdbcType" : 5,
+    "columnLength" : 5,
+    "precision" : 5,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "O7K4SLIX",
+    "name" : "package_name",
+    "columnName" : "package_name",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -9,
+    "columnLength" : 60,
+    "precision" : 60,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "XTUR3OUL",
+    "name" : "xe_action_name",
+    "columnName" : "xe_action_name",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -9,
+    "columnLength" : 60,
+    "precision" : 60,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  } ],
+  "columnExtensionLoaded" : true,
+  "indexes" : [ ]
+}

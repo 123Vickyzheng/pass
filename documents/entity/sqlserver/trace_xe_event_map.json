@@ -1,0 +1,75 @@
+{
+  "type" : "entityModel",
+  "id" : "BFAHO30L",
+  "dataSourceId" : "ZWBY14AI",
+  "schema" : "sys",
+  "name" : "trace_xe_event_map",
+  "tableName" : "trace_xe_event_map",
+  "showBuiltinColumns" : false,
+  "columns" : [ {
+    "type" : "entityColumnModel",
+    "id" : "YLUKE37Z",
+    "name" : "trace_event_id",
+    "columnName" : "trace_event_id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "dbType" : "SMALLINT",
+    "jdbcType" : 5,
+    "columnLength" : 5,
+    "precision" : 5,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "D1N98P21",
+    "name" : "package_name",
+    "columnName" : "package_name",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -9,
+    "columnLength" : 60,
+    "precision" : 60,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "TY5M6Y0C",
+    "name" : "xe_event_name",
+    "columnName" : "xe_event_name",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -9,
+    "columnLength" : 60,
+    "precision" : 60,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  } ],
+  "columnExtensionLoaded" : true,
+  "indexes" : [ ]
+}
