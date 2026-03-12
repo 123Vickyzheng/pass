@@ -1,9 +1,0 @@
-{
-  "id" : "IZKXDVL5",
-  "name" : "逻辑1",
-  "enableTransaction" : true,
-  "allowExpressionCall" : false,
-  "parameters" : [ ],
-  "variables" : [ ],
-  "returnValues" : [ ]
-}
