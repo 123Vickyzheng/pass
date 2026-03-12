@@ -274,121 +274,61 @@
 }, {
   "moduleType" : "page",
   "moduleName" : "PC",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1443013Z",
-  "resourcePaths" : [ "documents/page/PC", "documents/page/PC/.f.metadata.json", "documents/page/PC/.f.json", "documents/ref-object/GE8V17XY.json", "documents/ref-object/GE8V17XY.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "GE8V17XY"
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/系统页面",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/PC/系统页面", "documents/page/PC/系统页面/.f.metadata.json", "documents/page/PC/系统页面/.f.json", "documents/ref-object/Q8OR0P1I.json", "documents/ref-object/Q8OR0P1I.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "Q8OR0P1I"
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/系统页面/401无权限页面",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/PC/系统页面/401无权限页面.json", "documents/page/PC/系统页面/401无权限页面.metadata.json", "documents/page/PC/系统页面/401无权限页面.refId.json", "documents/ref-object/YR7X1NU4.json", "documents/ref-object/YR7X1NU4.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "YR7X1NU4"
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/系统页面/404未发现页面",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/PC/系统页面/404未发现页面.json", "documents/page/PC/系统页面/404未发现页面.metadata.json", "documents/page/PC/系统页面/404未发现页面.refId.json", "documents/ref-object/MAEDHUVA.json", "documents/ref-object/MAEDHUVA.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "MAEDHUVA"
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/系统页面/登录页",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/PC/系统页面/登录页.json", "documents/page/PC/系统页面/登录页.metadata.json", "documents/page/PC/系统页面/登录页.refId.json", "documents/ref-object/S5MNPDPN.json", "documents/ref-object/S5MNPDPN.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "S5MNPDPN"
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/页面1",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/PC/页面1.json", "documents/page/PC/页面1.metadata.json", "documents/page/PC/页面1.refId.json", "documents/ref-object/RT75I6R2.json", "documents/ref-object/RT75I6R2.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "RT75I6R2"
 }, {
   "moduleType" : "page",
   "moduleName" : "PC/默认实体页面",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/PC/默认实体页面.json", "documents/page/PC/默认实体页面.metadata.json", "documents/page/PC/默认实体页面.refId.json", "documents/ref-object/NLOMT290.json", "documents/ref-object/NLOMT290.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "NLOMT290"
 }, {
   "moduleType" : "page",
   "moduleName" : "移动端",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/移动端", "documents/page/移动端/.f.metadata.json", "documents/page/移动端/.f.json", "documents/ref-object/QM1D3VDS.json", "documents/ref-object/QM1D3VDS.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "QM1D3VDS"
 }, {
   "moduleType" : "page",
   "moduleName" : "移动端/页面",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/移动端/页面", "documents/page/移动端/页面/.f.metadata.json", "documents/page/移动端/页面/.f.json", "documents/ref-object/YAUNGWL5.json", "documents/ref-object/YAUNGWL5.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "YAUNGWL5"
 }, {
   "moduleType" : "page",
   "moduleName" : "移动端/页面组件",
-  "state" : "Edit",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:17:46.1457764Z",
-  "resourcePaths" : [ "documents/page/移动端/页面组件", "documents/page/移动端/页面组件/.f.metadata.json", "documents/page/移动端/页面组件/.f.json", "documents/ref-object/L13KX3XC.json", "documents/ref-object/L13KX3XC.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "L13KX3XC"
 }, {
@@ -621,37 +561,19 @@
 }, {
   "moduleType" : "logic",
   "moduleName" : "集成/开放接口/鉴权方式/鉴权方式1",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:18:34.7812542Z",
-  "resourcePaths" : [ "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.json", "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.metadata.json", "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.refId.json", "documents/ref-object/FROFF93Q.json", "documents/ref-object/FROFF93Q.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "FROFF93Q"
 }, {
   "moduleType" : "static-resource",
   "moduleName" : "文件/文件夹",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:18:58.2056888Z",
-  "resourcePaths" : [ "documents/static-resource/文件/文件夹", "documents/static-resource/文件/文件夹/.f.metadata.json", "documents/static-resource/文件/文件夹/.f.json", "documents/ref-object/FKVL31H7.json", "documents/ref-object/FKVL31H7.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "FKVL31H7"
 }, {
   "moduleType" : "static-resource",
   "moduleName" : "文件/文件夹/0311_6_副本3.phx",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzhe",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T09:19:08.8502725Z",
-  "resourcePaths" : [ "documents/static-resource/文件/文件夹/0311_6_副本3.phx.json", "documents/static-resource/文件/文件夹/0311_6_副本3.phx.metadata.json", "documents/static-resource/文件/文件夹/0311_6_副本3.phx.refId.json", "documents/ref-object/HMP2R2F4.json", "documents/ref-object/HMP2R2F4.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "HMP2R2F4"
 } ]
