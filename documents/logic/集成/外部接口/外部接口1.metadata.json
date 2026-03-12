@@ -1,7 +1,6 @@
 {
   "id" : "HFCHJZOP",
   "name" : "外部接口1",
-  "description" : "",
   "integration" : "externalApi",
   "method" : "GET",
   "parameters" : [ ],
@@ -9,7 +8,7 @@
     "id" : "C6KQXGWP",
     "name" : "response",
     "dataType" : {
-      "typeId" : "String"
+      "typeId" : "Auto"
     },
     "data" : {
       "source" : "body"
