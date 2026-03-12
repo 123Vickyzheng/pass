@@ -1,0 +1,21 @@
+{
+  "id" : "QADP6D5Y",
+  "name" : "查询默认实体详情",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "CF7NAV4F",
+    "name" : "主键",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "AZKW01EY",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "X2K0HU8H"
+    }
+  } ]
+}

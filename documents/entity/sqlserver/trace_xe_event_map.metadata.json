@@ -1,0 +1,42 @@
+{
+  "id" : "BFAHO30L",
+  "dataSourceId" : "ZWBY14AI",
+  "schema" : "sys",
+  "tableName" : "trace_xe_event_map",
+  "name" : "trace_xe_event_map",
+  "showBuiltinColumns" : false,
+  "columns" : [ {
+    "id" : "YLUKE37Z",
+    "columnName" : "trace_event_id",
+    "name" : "trace_event_id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "D1N98P21",
+    "columnName" : "package_name",
+    "name" : "package_name",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "TY5M6Y0C",
+    "columnName" : "xe_event_name",
+    "name" : "xe_event_name",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  } ]
+}

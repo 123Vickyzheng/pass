@@ -1,0 +1,123 @@
+{
+  "id" : "NLOMT290",
+  "name" : "默认实体页面",
+  "resourceType" : "page",
+  "description" : "",
+  "variables" : [ {
+    "id" : "J69PYV2V",
+    "name" : "默认实体所有字段",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "List",
+      "genericTypes" : [ {
+        "typeId" : "X2K0HU8H"
+      } ]
+    },
+    "description" : ""
+  }, {
+    "id" : "RU5354RM",
+    "name" : "当前行",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "X2K0HU8H"
+    },
+    "description" : "",
+    "isParameter" : false
+  }, {
+    "id" : "GQ34XWVI",
+    "name" : "变量2",
+    "defaultValue" : {
+      "type" : "expression",
+      "structure" : {
+        "0" : {
+          "type" : "literal",
+          "literal" : 1
+        },
+        "1" : {
+          "type" : "literal",
+          "literal" : 2
+        }
+      }
+    },
+    "dataType" : {
+      "typeId" : "Map",
+      "genericTypes" : [ {
+        "typeId" : "Integer"
+      }, {
+        "typeId" : "Decimal"
+      } ]
+    },
+    "description" : ""
+  } ],
+  "logics" : [ ],
+  "eventListeners" : [ {
+    "id" : "CWTEQQ45",
+    "name" : "页面加载前1",
+    "variables" : [ ],
+    "parameters" : [ ],
+    "returnValues" : [ ],
+    "targetEvent" : "enter"
+  } ],
+  "elementEventListeners" : [ {
+    "elementId" : "CV7GTUPD",
+    "elementName" : "表格",
+    "pluginName" : "component-ant-design",
+    "type" : "table",
+    "targetEvent" : "rowClick",
+    "id" : "C8SVG0GO",
+    "name" : "点击行1",
+    "variables" : [ ],
+    "parameters" : [ ],
+    "returnValues" : [ ]
+  }, {
+    "elementId" : "BDHEPEB4",
+    "elementName" : "按钮",
+    "pluginName" : "component-ant-design",
+    "type" : "button",
+    "targetEvent" : "click",
+    "id" : "NHI096XA",
+    "name" : "单击1",
+    "variables" : [ {
+      "id" : "B03DAXR9",
+      "name" : "变量1",
+      "dataType" : {
+        "typeId" : "Integer"
+      }
+    } ],
+    "parameters" : [ ],
+    "returnValues" : [ ]
+  }, {
+    "elementId" : "DZJEHYYM",
+    "elementName" : "按钮1",
+    "pluginName" : "component-ant-design",
+    "type" : "button",
+    "targetEvent" : "click",
+    "id" : "L2VOBSLK",
+    "name" : "单击1",
+    "variables" : [ {
+      "id" : "JIZGMBV9",
+      "name" : "主键",
+      "dataType" : {
+        "typeId" : "Integer"
+      }
+    } ],
+    "parameters" : [ ],
+    "returnValues" : [ ]
+  }, {
+    "elementId" : "XM6O7VP4",
+    "elementName" : "按钮2",
+    "pluginName" : "component-ant-design",
+    "type" : "button",
+    "targetEvent" : "click",
+    "id" : "Y6JWD771",
+    "name" : "单击1",
+    "variables" : [ ],
+    "parameters" : [ ],
+    "returnValues" : [ ]
+  } ],
+  "platform" : "pc"
+}

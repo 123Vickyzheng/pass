@@ -1,0 +1,4806 @@
+{
+  "id" : "NLOMT290",
+  "name" : "默认实体页面",
+  "rootElement" : {
+    "id" : "XDLMWP2P",
+    "name" : "线性布局",
+    "type" : "linear-layout",
+    "pluginName" : "component-common",
+    "styles" : [ {
+      "pseudo" : "none",
+      "target" : "root",
+      "cssProperties" : [ {
+        "name" : "size",
+        "type" : "literal",
+        "literal" : {
+          "width" : "",
+          "height" : "100%",
+          "minWidth" : "",
+          "minHeight" : "",
+          "maxWidth" : "",
+          "maxHeight" : ""
+        }
+      }, {
+        "name" : "display",
+        "type" : "literal",
+        "literal" : "flex"
+      }, {
+        "name" : "flexDirection",
+        "type" : "literal",
+        "literal" : "column"
+      }, {
+        "name" : "alignItems",
+        "type" : "literal",
+        "literal" : "start"
+      }, {
+        "name" : "justifyContent",
+        "type" : "literal",
+        "literal" : "start"
+      }, {
+        "name" : "columnGap",
+        "type" : "literal",
+        "literal" : "var(--small-spacing)"
+      }, {
+        "name" : "rowGap",
+        "type" : "literal",
+        "literal" : "var(--small-spacing)"
+      }, {
+        "name" : "position",
+        "type" : "literal",
+        "literal" : "relative"
+      }, {
+        "name" : "border",
+        "type" : "literal",
+        "literal" : { }
+      } ]
+    } ],
+    "events" : [ ],
+    "properties" : [ {
+      "name" : "loading",
+      "type" : "literal",
+      "literal" : ""
+    }, {
+      "name" : "enableCustomLoading",
+      "type" : "literal",
+      "literal" : ""
+    } ],
+    "children" : [ {
+      "id" : "CV7GTUPD",
+      "name" : "表格",
+      "type" : "table",
+      "pluginName" : "component-ant-design",
+      "styles" : [ ],
+      "events" : [ {
+        "id" : "C8SVG0GO",
+        "name" : "点击行1",
+        "description" : "",
+        "variables" : [ ],
+        "parameters" : [ ],
+        "returnValues" : [ ],
+        "diagram" : {
+          "nodes" : [ {
+            "id" : "ELGX643N",
+            "name" : "开始",
+            "pluginName" : "",
+            "identifier" : "",
+            "attributes" : {
+              "position" : {
+                "x" : 80,
+                "y" : 200
+              }
+            },
+            "isStartPoint" : true
+          }, {
+            "id" : "W5EGOJUN",
+            "name" : "结束",
+            "pluginName" : "logic-core",
+            "identifier" : "return",
+            "attributes" : {
+              "position" : {
+                "x" : 800,
+                "y" : 200
+              }
+            }
+          }, {
+            "id" : "OK0PO2FA",
+            "pluginName" : "logic-core",
+            "identifier" : "assignment",
+            "content" : {
+              "assignmentDatas" : {
+                "type" : "literal",
+                "literal" : [ {
+                  "id" : "L2LAWC1E",
+                  "target" : {
+                    "type" : "variable",
+                    "variable" : "RU5354RM"
+                  },
+                  "source" : {
+                    "type" : "expression",
+                    "expression" : "event.item"
+                  }
+                } ]
+              },
+              "batchSetting" : {
+                "type" : "literal",
+                "literal" : null
+              }
+            },
+            "attributes" : {
+              "position" : {
+                "x" : 356,
+                "y" : 200
+              }
+            },
+            "logicId" : "C8SVG0GO"
+          } ],
+          "edges" : [ {
+            "id" : "NMXG9YOE",
+            "sourceId" : "ELGX643N",
+            "targetId" : "OK0PO2FA",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          }, {
+            "id" : "XWMV6V6M",
+            "sourceId" : "OK0PO2FA",
+            "targetId" : "W5EGOJUN",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          } ]
+        },
+        "targetEvent" : "rowClick"
+      } ],
+      "properties" : [ {
+        "name" : "displayMode",
+        "type" : "literal",
+        "literal" : "table"
+      }, {
+        "name" : "datasource",
+        "type" : "variable",
+        "variable" : "J69PYV2V"
+      }, {
+        "name" : "dataSourcePreview",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "valueField",
+        "type" : "literal",
+        "literal" : "item.GQ7XJZK0"
+      }, {
+        "name" : "parentField",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "childrenField",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "selectedRowKeys",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "canUserPage",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "totalCount",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "paginatorPosition",
+        "type" : "literal",
+        "literal" : "bottomEnd"
+      }, {
+        "name" : "autoHidePaginator",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "showPageSizeChanger",
+        "type" : "literal",
+        "literal" : true
+      }, {
+        "name" : "pageSizeOptions",
+        "type" : "structure",
+        "structure" : [ {
+          "type" : "literal",
+          "literal" : 10
+        }, {
+          "type" : "literal",
+          "literal" : 20
+        }, {
+          "type" : "literal",
+          "literal" : 50
+        }, {
+          "type" : "literal",
+          "literal" : 100
+        } ]
+      }, {
+        "name" : "currentPage",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "pageSize",
+        "type" : "literal",
+        "literal" : 10
+      }, {
+        "name" : "showTotal",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "itemSize",
+        "type" : "literal",
+        "literal" : 24
+      }, {
+        "name" : "emptyText",
+        "type" : "literal",
+        "literal" : "暂无数据"
+      }, {
+        "name" : "showHeader",
+        "type" : "literal",
+        "literal" : true
+      }, {
+        "name" : "showFooterRow",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "tableSize",
+        "type" : "literal",
+        "literal" : "middle"
+      }, {
+        "name" : "stickyHeader",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "autoFitColumns",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "selectionMode",
+        "type" : "literal",
+        "literal" : "single"
+      }, {
+        "name" : "isRowSelection",
+        "type" : "literal",
+        "literal" : true
+      }, {
+        "name" : "showSelectionBox",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "canUserExpandRows",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "expandIcon",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "collapseIcon",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "canUserSortColumns",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "sortToggleMode",
+        "type" : "literal",
+        "literal" : "all"
+      }, {
+        "name" : "sortAtServer",
+        "type" : "literal",
+        "literal" : true
+      }, {
+        "name" : "sortColumnName",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "sortOrder",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "canUserEdit",
+        "type" : "literal",
+        "literal" : true
+      } ],
+      "children" : [ {
+        "id" : "OAXRXD33",
+        "name" : "数据列",
+        "type" : "table-column",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "valueField",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "columnType",
+          "type" : "literal",
+          "literal" : "general"
+        }, {
+          "name" : "width",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "minWidth",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "span",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "canUserSort",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "canUserEdit",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "isFixedColumn",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "fixedColumnPosition",
+          "type" : "literal",
+          "literal" : "left"
+        }, {
+          "name" : "dataValidation",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "YZ3ZNR07",
+          "name" : "组件插槽",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "IQF5ZUUD",
+            "name" : "文本",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "literal",
+              "literal" : "id"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "title"
+        }, {
+          "id" : "NS276OOV",
+          "name" : "组件插槽1",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "CD0OVHNH",
+            "name" : "文本1",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "expression",
+              "expression" : "current.item.GQ7XJZK0"
+            }, {
+              "name" : "format",
+              "type" : "literal"
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "cell"
+        }, {
+          "id" : "XRXRI9P7",
+          "name" : "表尾单元格",
+          "type" : "table-footer-cell",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          } ],
+          "children" : [ {
+            "id" : "CX57VDCQ",
+            "name" : "组件插槽2",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "display",
+                "type" : "literal",
+                "literal" : "flex"
+              }, {
+                "name" : "flexDirection",
+                "type" : "literal",
+                "literal" : "column"
+              }, {
+                "name" : "alignItems",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "justifyContent",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "columnGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "rowGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "position",
+                "type" : "literal",
+                "literal" : "relative"
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "E62BTZPB",
+              "name" : "文本2",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "100%",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "margin",
+                  "type" : "literal",
+                  "literal" : {
+                    "top" : "8px",
+                    "right" : "0px",
+                    "bottom" : "8px",
+                    "left" : "0px"
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "总计"
+              }, {
+                "name" : "format",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "customFormat",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "footerCell"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "footer"
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "F1GS2NDY",
+        "name" : "数据列1",
+        "type" : "table-column",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "valueField",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "columnType",
+          "type" : "literal",
+          "literal" : "general"
+        }, {
+          "name" : "width",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "minWidth",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "span",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "canUserSort",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "canUserEdit",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "isFixedColumn",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "fixedColumnPosition",
+          "type" : "literal",
+          "literal" : "left"
+        }, {
+          "name" : "dataValidation",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "OBVC2IP4",
+          "name" : "组件插槽3",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "SSTB149B",
+            "name" : "文本3",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "literal",
+              "literal" : "integer"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "title"
+        }, {
+          "id" : "XT33JT83",
+          "name" : "组件插槽4",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "IJZN5YEN",
+            "name" : "文本4",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "expression",
+              "expression" : "current.item.ZCBOOLF1"
+            }, {
+              "name" : "format",
+              "type" : "literal"
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "cell"
+        }, {
+          "id" : "M107F28O",
+          "name" : "表尾单元格1",
+          "type" : "table-footer-cell",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          } ],
+          "children" : [ {
+            "id" : "G1D1Z88B",
+            "name" : "组件插槽5",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "display",
+                "type" : "literal",
+                "literal" : "flex"
+              }, {
+                "name" : "flexDirection",
+                "type" : "literal",
+                "literal" : "column"
+              }, {
+                "name" : "alignItems",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "justifyContent",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "columnGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "rowGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "position",
+                "type" : "literal",
+                "literal" : "relative"
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "IVVDAGKI",
+              "name" : "文本5",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "100%",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "margin",
+                  "type" : "literal",
+                  "literal" : {
+                    "top" : "8px",
+                    "right" : "0px",
+                    "bottom" : "8px",
+                    "left" : "0px"
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "总计"
+              }, {
+                "name" : "format",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "customFormat",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "footerCell"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "footer"
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "N1Q6O2TL",
+        "name" : "数据列2",
+        "type" : "table-column",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "valueField",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "columnType",
+          "type" : "literal",
+          "literal" : "general"
+        }, {
+          "name" : "width",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "minWidth",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "span",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "canUserSort",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "canUserEdit",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "isFixedColumn",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "fixedColumnPosition",
+          "type" : "literal",
+          "literal" : "left"
+        }, {
+          "name" : "dataValidation",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "J30C9ACA",
+          "name" : "组件插槽6",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "TVFZJ4PK",
+            "name" : "文本6",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "literal",
+              "literal" : "decimal"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "title"
+        }, {
+          "id" : "MS373TT2",
+          "name" : "组件插槽7",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "SCVY4LLQ",
+            "name" : "文本7",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "expression",
+              "expression" : "current.item.EDMA8RPA"
+            }, {
+              "name" : "format",
+              "type" : "literal"
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "cell"
+        }, {
+          "id" : "HNH47YYG",
+          "name" : "表尾单元格2",
+          "type" : "table-footer-cell",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          } ],
+          "children" : [ {
+            "id" : "YG5NOXFK",
+            "name" : "组件插槽8",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "display",
+                "type" : "literal",
+                "literal" : "flex"
+              }, {
+                "name" : "flexDirection",
+                "type" : "literal",
+                "literal" : "column"
+              }, {
+                "name" : "alignItems",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "justifyContent",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "columnGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "rowGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "position",
+                "type" : "literal",
+                "literal" : "relative"
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "Q3DVJY6J",
+              "name" : "文本8",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "100%",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "margin",
+                  "type" : "literal",
+                  "literal" : {
+                    "top" : "8px",
+                    "right" : "0px",
+                    "bottom" : "8px",
+                    "left" : "0px"
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "总计"
+              }, {
+                "name" : "format",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "customFormat",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "footerCell"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "footer"
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "CFVZC3CT",
+        "name" : "数据列3",
+        "type" : "table-column",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "valueField",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "columnType",
+          "type" : "literal",
+          "literal" : "general"
+        }, {
+          "name" : "width",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "minWidth",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "span",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "canUserSort",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "canUserEdit",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "isFixedColumn",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "fixedColumnPosition",
+          "type" : "literal",
+          "literal" : "left"
+        }, {
+          "name" : "dataValidation",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "W9IF530H",
+          "name" : "组件插槽9",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "RKIS3OWY",
+            "name" : "文本9",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "literal",
+              "literal" : "boolean"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "title"
+        }, {
+          "id" : "VT7JRPGN",
+          "name" : "组件插槽10",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "R5EWHEXU",
+            "name" : "文本10",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "expression",
+              "expression" : "current.item.P6X2FH7M"
+            }, {
+              "name" : "format",
+              "type" : "literal"
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "cell"
+        }, {
+          "id" : "LQP31JL6",
+          "name" : "表尾单元格3",
+          "type" : "table-footer-cell",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          } ],
+          "children" : [ {
+            "id" : "Y8342OOC",
+            "name" : "组件插槽11",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "display",
+                "type" : "literal",
+                "literal" : "flex"
+              }, {
+                "name" : "flexDirection",
+                "type" : "literal",
+                "literal" : "column"
+              }, {
+                "name" : "alignItems",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "justifyContent",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "columnGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "rowGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "position",
+                "type" : "literal",
+                "literal" : "relative"
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "LUKF9DB1",
+              "name" : "文本11",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "100%",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "margin",
+                  "type" : "literal",
+                  "literal" : {
+                    "top" : "8px",
+                    "right" : "0px",
+                    "bottom" : "8px",
+                    "left" : "0px"
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "总计"
+              }, {
+                "name" : "format",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "customFormat",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "footerCell"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "footer"
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "VMCUXVSE",
+        "name" : "数据列4",
+        "type" : "table-column",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "valueField",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "columnType",
+          "type" : "literal",
+          "literal" : "general"
+        }, {
+          "name" : "width",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "minWidth",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "span",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "canUserSort",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "canUserEdit",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "isFixedColumn",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "fixedColumnPosition",
+          "type" : "literal",
+          "literal" : "left"
+        }, {
+          "name" : "dataValidation",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "M6IHTM6R",
+          "name" : "组件插槽12",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "SU3EKP31",
+            "name" : "文本12",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "literal",
+              "literal" : "string"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "title"
+        }, {
+          "id" : "Q2G3VP4R",
+          "name" : "组件插槽13",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "WZTDHUHO",
+            "name" : "文本13",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "expression",
+              "expression" : "current.item.SAOMSFXX"
+            }, {
+              "name" : "format",
+              "type" : "literal"
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "cell"
+        }, {
+          "id" : "WVM4JQHX",
+          "name" : "表尾单元格4",
+          "type" : "table-footer-cell",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          } ],
+          "children" : [ {
+            "id" : "AI3FQBYS",
+            "name" : "组件插槽14",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "display",
+                "type" : "literal",
+                "literal" : "flex"
+              }, {
+                "name" : "flexDirection",
+                "type" : "literal",
+                "literal" : "column"
+              }, {
+                "name" : "alignItems",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "justifyContent",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "columnGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "rowGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "position",
+                "type" : "literal",
+                "literal" : "relative"
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "C47Y8MZ4",
+              "name" : "文本14",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "100%",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "margin",
+                  "type" : "literal",
+                  "literal" : {
+                    "top" : "8px",
+                    "right" : "0px",
+                    "bottom" : "8px",
+                    "left" : "0px"
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "总计"
+              }, {
+                "name" : "format",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "customFormat",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "footerCell"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "footer"
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "D0WAF415",
+        "name" : "数据列5",
+        "type" : "table-column",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "valueField",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "columnType",
+          "type" : "literal",
+          "literal" : "general"
+        }, {
+          "name" : "width",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "minWidth",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "span",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "canUserSort",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "canUserEdit",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "isFixedColumn",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "fixedColumnPosition",
+          "type" : "literal",
+          "literal" : "left"
+        }, {
+          "name" : "dataValidation",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "RP4SWACW",
+          "name" : "组件插槽15",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "N8ORGG5D",
+            "name" : "文本15",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "literal",
+              "literal" : "date"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "title"
+        }, {
+          "id" : "UMHSKOAR",
+          "name" : "组件插槽16",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "TBDSS9T3",
+            "name" : "文本16",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "expression",
+              "expression" : "current.item.BVM2LFC8"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : "yyyy-MM-dd"
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "cell"
+        }, {
+          "id" : "PBPDW9BN",
+          "name" : "表尾单元格5",
+          "type" : "table-footer-cell",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          } ],
+          "children" : [ {
+            "id" : "RAH9IE5Z",
+            "name" : "组件插槽17",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "display",
+                "type" : "literal",
+                "literal" : "flex"
+              }, {
+                "name" : "flexDirection",
+                "type" : "literal",
+                "literal" : "column"
+              }, {
+                "name" : "alignItems",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "justifyContent",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "columnGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "rowGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "position",
+                "type" : "literal",
+                "literal" : "relative"
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "LAD9VZQE",
+              "name" : "文本17",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "100%",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "margin",
+                  "type" : "literal",
+                  "literal" : {
+                    "top" : "8px",
+                    "right" : "0px",
+                    "bottom" : "8px",
+                    "left" : "0px"
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "总计"
+              }, {
+                "name" : "format",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "customFormat",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "footerCell"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "footer"
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "WUBU0F2W",
+        "name" : "数据列6",
+        "type" : "table-column",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "valueField",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "columnType",
+          "type" : "literal",
+          "literal" : "general"
+        }, {
+          "name" : "width",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "minWidth",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "span",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "canUserSort",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "canUserEdit",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "isFixedColumn",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "fixedColumnPosition",
+          "type" : "literal",
+          "literal" : "left"
+        }, {
+          "name" : "dataValidation",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "FKFZDSG0",
+          "name" : "组件插槽18",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "BDI780ZL",
+            "name" : "文本18",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "literal",
+              "literal" : "time"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "title"
+        }, {
+          "id" : "M88OXZ5H",
+          "name" : "组件插槽19",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "IY8RO8SM",
+            "name" : "文本19",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "expression",
+              "expression" : "current.item.D2NG1MD1"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : "HH:mm:ss"
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "cell"
+        }, {
+          "id" : "NT6I3ZEN",
+          "name" : "表尾单元格6",
+          "type" : "table-footer-cell",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          } ],
+          "children" : [ {
+            "id" : "ZYZWUU2X",
+            "name" : "组件插槽20",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "display",
+                "type" : "literal",
+                "literal" : "flex"
+              }, {
+                "name" : "flexDirection",
+                "type" : "literal",
+                "literal" : "column"
+              }, {
+                "name" : "alignItems",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "justifyContent",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "columnGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "rowGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "position",
+                "type" : "literal",
+                "literal" : "relative"
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "I3QZLCAZ",
+              "name" : "文本20",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "100%",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "margin",
+                  "type" : "literal",
+                  "literal" : {
+                    "top" : "8px",
+                    "right" : "0px",
+                    "bottom" : "8px",
+                    "left" : "0px"
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "总计"
+              }, {
+                "name" : "format",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "customFormat",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "footerCell"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "footer"
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      }, {
+        "id" : "DP8QUKFH",
+        "name" : "数据列7",
+        "type" : "table-column",
+        "pluginName" : "component-ant-design",
+        "styles" : [ ],
+        "events" : [ ],
+        "properties" : [ {
+          "name" : "valueField",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "columnType",
+          "type" : "literal",
+          "literal" : "general"
+        }, {
+          "name" : "width",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "minWidth",
+          "type" : "literal",
+          "literal" : ""
+        }, {
+          "name" : "span",
+          "type" : "literal",
+          "literal" : 1
+        }, {
+          "name" : "canUserSort",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "canUserEdit",
+          "type" : "literal",
+          "literal" : "inherit"
+        }, {
+          "name" : "isFixedColumn",
+          "type" : "literal",
+          "literal" : false
+        }, {
+          "name" : "fixedColumnPosition",
+          "type" : "literal",
+          "literal" : "left"
+        }, {
+          "name" : "dataValidation",
+          "type" : "literal",
+          "literal" : ""
+        } ],
+        "children" : [ {
+          "id" : "JRECA9JR",
+          "name" : "组件插槽21",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "X2G43G2Q",
+            "name" : "文本21",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "literal",
+              "literal" : "datetime"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "title"
+        }, {
+          "id" : "E6VE17LS",
+          "name" : "组件插槽22",
+          "type" : "slot",
+          "pluginName" : "component-common",
+          "styles" : [ {
+            "pseudo" : "none",
+            "target" : "root",
+            "cssProperties" : [ {
+              "name" : "display",
+              "type" : "literal",
+              "literal" : "flex"
+            }, {
+              "name" : "flexDirection",
+              "type" : "literal",
+              "literal" : "column"
+            }, {
+              "name" : "alignItems",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "justifyContent",
+              "type" : "literal",
+              "literal" : "start"
+            }, {
+              "name" : "columnGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "rowGap",
+              "type" : "literal",
+              "literal" : "var(--small-spacing)"
+            }, {
+              "name" : "position",
+              "type" : "literal",
+              "literal" : "relative"
+            }, {
+              "name" : "border",
+              "type" : "literal",
+              "literal" : { }
+            } ]
+          } ],
+          "events" : [ ],
+          "properties" : [ ],
+          "children" : [ {
+            "id" : "K74RDPIS",
+            "name" : "文本22",
+            "type" : "text",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "size",
+                "type" : "literal",
+                "literal" : {
+                  "width" : "",
+                  "height" : "",
+                  "minWidth" : "",
+                  "minHeight" : "",
+                  "maxWidth" : "100%",
+                  "maxHeight" : ""
+                }
+              }, {
+                "name" : "margin",
+                "type" : "literal",
+                "literal" : {
+                  "top" : "8px",
+                  "right" : "0px",
+                  "bottom" : "8px",
+                  "left" : "0px"
+                }
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ {
+              "name" : "text",
+              "type" : "expression",
+              "expression" : "current.item.DE78SU3Q"
+            }, {
+              "name" : "format",
+              "type" : "literal",
+              "literal" : "yyyy-MM-dd HH:mm:ss"
+            }, {
+              "name" : "customFormat",
+              "type" : "literal",
+              "literal" : ""
+            }, {
+              "name" : "isHeader",
+              "type" : "literal",
+              "literal" : false
+            }, {
+              "name" : "level",
+              "type" : "literal",
+              "literal" : 1
+            }, {
+              "name" : "wrapping",
+              "type" : "literal",
+              "literal" : "normal"
+            }, {
+              "name" : "ellipsis",
+              "type" : "literal",
+              "literal" : false
+            } ],
+            "children" : [ ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            }
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "cell"
+        }, {
+          "id" : "QML653B7",
+          "name" : "表尾单元格7",
+          "type" : "table-footer-cell",
+          "pluginName" : "component-ant-design",
+          "styles" : [ ],
+          "events" : [ ],
+          "properties" : [ {
+            "name" : "colSpan",
+            "type" : "literal",
+            "literal" : 1
+          } ],
+          "children" : [ {
+            "id" : "E7RTJSTY",
+            "name" : "组件插槽23",
+            "type" : "slot",
+            "pluginName" : "component-common",
+            "styles" : [ {
+              "pseudo" : "none",
+              "target" : "root",
+              "cssProperties" : [ {
+                "name" : "display",
+                "type" : "literal",
+                "literal" : "flex"
+              }, {
+                "name" : "flexDirection",
+                "type" : "literal",
+                "literal" : "column"
+              }, {
+                "name" : "alignItems",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "justifyContent",
+                "type" : "literal",
+                "literal" : "start"
+              }, {
+                "name" : "columnGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "rowGap",
+                "type" : "literal",
+                "literal" : "var(--small-spacing)"
+              }, {
+                "name" : "position",
+                "type" : "literal",
+                "literal" : "relative"
+              }, {
+                "name" : "border",
+                "type" : "literal",
+                "literal" : { }
+              } ]
+            } ],
+            "events" : [ ],
+            "properties" : [ ],
+            "children" : [ {
+              "id" : "SBBY26HD",
+              "name" : "文本23",
+              "type" : "text",
+              "pluginName" : "component-common",
+              "styles" : [ {
+                "pseudo" : "none",
+                "target" : "root",
+                "cssProperties" : [ {
+                  "name" : "size",
+                  "type" : "literal",
+                  "literal" : {
+                    "width" : "",
+                    "height" : "",
+                    "minWidth" : "",
+                    "minHeight" : "",
+                    "maxWidth" : "100%",
+                    "maxHeight" : ""
+                  }
+                }, {
+                  "name" : "margin",
+                  "type" : "literal",
+                  "literal" : {
+                    "top" : "8px",
+                    "right" : "0px",
+                    "bottom" : "8px",
+                    "left" : "0px"
+                  }
+                }, {
+                  "name" : "border",
+                  "type" : "literal",
+                  "literal" : { }
+                } ]
+              } ],
+              "events" : [ ],
+              "properties" : [ {
+                "name" : "text",
+                "type" : "literal",
+                "literal" : "总计"
+              }, {
+                "name" : "format",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "customFormat",
+                "type" : "literal",
+                "literal" : ""
+              }, {
+                "name" : "isHeader",
+                "type" : "literal",
+                "literal" : false
+              }, {
+                "name" : "level",
+                "type" : "literal",
+                "literal" : 1
+              }, {
+                "name" : "wrapping",
+                "type" : "literal",
+                "literal" : "normal"
+              }, {
+                "name" : "ellipsis",
+                "type" : "literal",
+                "literal" : false
+              } ],
+              "children" : [ ],
+              "description" : "",
+              "visible" : {
+                "type" : "expression",
+                "expression" : ""
+              }
+            } ],
+            "description" : "",
+            "visible" : {
+              "type" : "expression",
+              "expression" : ""
+            },
+            "slotTarget" : "footerCell"
+          } ],
+          "description" : "",
+          "visible" : {
+            "type" : "expression",
+            "expression" : ""
+          },
+          "slotTarget" : "footer"
+        } ],
+        "description" : "",
+        "visible" : {
+          "type" : "expression",
+          "expression" : ""
+        }
+      } ],
+      "description" : "",
+      "visible" : {
+        "type" : "expression",
+        "expression" : ""
+      }
+    }, {
+      "id" : "BDHEPEB4",
+      "name" : "按钮",
+      "type" : "button",
+      "pluginName" : "component-ant-design",
+      "styles" : [ ],
+      "events" : [ {
+        "id" : "NHI096XA",
+        "name" : "单击1",
+        "description" : "",
+        "variables" : [ {
+          "id" : "B03DAXR9",
+          "name" : "变量1",
+          "dataType" : {
+            "typeId" : "Integer"
+          }
+        } ],
+        "parameters" : [ ],
+        "returnValues" : [ ],
+        "diagram" : {
+          "nodes" : [ {
+            "id" : "FFADG0VW",
+            "name" : "开始",
+            "pluginName" : "",
+            "identifier" : "",
+            "attributes" : {
+              "position" : {
+                "x" : 80,
+                "y" : 200
+              }
+            },
+            "isStartPoint" : true
+          }, {
+            "id" : "G3UNEDGX",
+            "name" : "结束",
+            "pluginName" : "logic-core",
+            "identifier" : "return",
+            "attributes" : {
+              "position" : {
+                "x" : 1106,
+                "y" : 200
+              }
+            }
+          }, {
+            "id" : "IALJMW60",
+            "pluginName" : "logic-core",
+            "identifier" : "call-logic",
+            "content" : {
+              "logicRef" : {
+                "type" : "ref",
+                "literal" : "H7SZD24F"
+              },
+              "parameters" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "DMR74Z8K"
+                    },
+                    "value" : {
+                      "type" : "structure",
+                      "structure" : {
+                        "GQ7XJZK0" : {
+                          "type" : "literal",
+                          "literal" : 3
+                        },
+                        "ZCBOOLF1" : {
+                          "type" : "literal",
+                          "literal" : 3
+                        },
+                        "EDMA8RPA" : {
+                          "type" : "literal",
+                          "literal" : 3.3
+                        },
+                        "P6X2FH7M" : {
+                          "type" : "literal",
+                          "literal" : false
+                        },
+                        "SAOMSFXX" : {
+                          "type" : "literal",
+                          "literal" : "CCC"
+                        },
+                        "BVM2LFC8" : {
+                          "type" : "literal",
+                          "literal" : "2026-03-12"
+                        },
+                        "D2NG1MD1" : {
+                          "type" : "literal",
+                          "literal" : "13:34:46"
+                        },
+                        "DE78SU3Q" : {
+                          "type" : "literal",
+                          "literal" : "2026-03-12T05:34:48.400Z"
+                        }
+                      }
+                    }
+                  }
+                } ]
+              },
+              "returnValues" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "DRTHV26D"
+                    },
+                    "variable" : {
+                      "type" : "variable",
+                      "variable" : "B03DAXR9"
+                    }
+                  }
+                } ]
+              },
+              "itemType" : {
+                "type" : "literal",
+                "literal" : "logic"
+              }
+            },
+            "attributes" : {
+              "position" : {
+                "x" : 412,
+                "y" : 174
+              }
+            },
+            "logicId" : "NHI096XA"
+          }, {
+            "id" : "DEY5T3SU",
+            "pluginName" : "logic-core",
+            "identifier" : "call-logic",
+            "content" : {
+              "itemType" : {
+                "type" : "literal",
+                "literal" : "logic"
+              },
+              "logicRef" : {
+                "type" : "ref",
+                "literal" : "OY0D5RZH"
+              },
+              "parameters" : {
+                "type" : "structure",
+                "structure" : [ ]
+              },
+              "returnValues" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "DL947R8K"
+                    },
+                    "variable" : {
+                      "type" : "variable",
+                      "variable" : "J69PYV2V"
+                    }
+                  }
+                } ]
+              }
+            },
+            "attributes" : {
+              "position" : {
+                "x" : 759,
+                "y" : 187
+              }
+            },
+            "logicId" : "NHI096XA"
+          } ],
+          "edges" : [ {
+            "id" : "I6FB4YYS",
+            "sourceId" : "FFADG0VW",
+            "targetId" : "IALJMW60",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          }, {
+            "id" : "AQYZIW6L",
+            "sourceId" : "IALJMW60",
+            "targetId" : "DEY5T3SU",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          }, {
+            "id" : "VAGW3XJZ",
+            "sourceId" : "DEY5T3SU",
+            "targetId" : "G3UNEDGX",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          } ]
+        },
+        "targetEvent" : "click"
+      } ],
+      "properties" : [ {
+        "name" : "text",
+        "type" : "literal",
+        "literal" : "添 加"
+      }, {
+        "name" : "enableNavigation",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "navigationType",
+        "type" : "literal",
+        "literal" : "external"
+      }, {
+        "name" : "targetPage",
+        "type" : "literal"
+      }, {
+        "name" : "href",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "parameterValues",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "target",
+        "type" : "literal",
+        "literal" : "_self"
+      }, {
+        "name" : "color",
+        "type" : "literal",
+        "literal" : "primary"
+      }, {
+        "name" : "shape",
+        "type" : "literal",
+        "literal" : "default"
+      }, {
+        "name" : "variant",
+        "type" : "literal",
+        "literal" : "solid"
+      }, {
+        "name" : "showIcon",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "iconPlacement",
+        "type" : "literal",
+        "literal" : "start"
+      }, {
+        "name" : "autoInsertSpace",
+        "type" : "literal",
+        "literal" : true
+      }, {
+        "name" : "disabled",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "loading",
+        "type" : "expression"
+      }, {
+        "name" : "canSubmitOnEnter",
+        "type" : "literal",
+        "literal" : true
+      } ],
+      "children" : [ ],
+      "description" : "",
+      "visible" : {
+        "type" : "expression",
+        "expression" : ""
+      }
+    }, {
+      "id" : "DZJEHYYM",
+      "name" : "按钮1",
+      "type" : "button",
+      "pluginName" : "component-ant-design",
+      "styles" : [ ],
+      "events" : [ {
+        "id" : "L2VOBSLK",
+        "name" : "单击1",
+        "description" : "",
+        "variables" : [ {
+          "id" : "JIZGMBV9",
+          "name" : "主键",
+          "dataType" : {
+            "typeId" : "Integer"
+          }
+        } ],
+        "parameters" : [ ],
+        "returnValues" : [ ],
+        "diagram" : {
+          "nodes" : [ {
+            "id" : "QPWOR7P8",
+            "name" : "开始",
+            "pluginName" : "",
+            "identifier" : "",
+            "attributes" : {
+              "position" : {
+                "x" : 80,
+                "y" : 200
+              }
+            },
+            "isStartPoint" : true
+          }, {
+            "id" : "VGUO3NXY",
+            "name" : "结束",
+            "pluginName" : "logic-core",
+            "identifier" : "return",
+            "attributes" : {
+              "position" : {
+                "x" : 1430,
+                "y" : 225
+              }
+            }
+          }, {
+            "id" : "SLUW5LAU",
+            "pluginName" : "logic-core",
+            "identifier" : "assignment",
+            "content" : {
+              "assignmentDatas" : {
+                "type" : "literal",
+                "literal" : [ {
+                  "id" : "A9ZL3URT",
+                  "target" : {
+                    "type" : "variable",
+                    "variable" : "JIZGMBV9"
+                  },
+                  "source" : {
+                    "type" : "expression",
+                    "expression" : "RU5354RM.GQ7XJZK0"
+                  }
+                } ]
+              },
+              "batchSetting" : {
+                "type" : "literal",
+                "literal" : null
+              }
+            },
+            "attributes" : {
+              "position" : {
+                "x" : 236,
+                "y" : 186
+              }
+            },
+            "logicId" : "L2VOBSLK"
+          }, {
+            "id" : "ZGGHU1TN",
+            "pluginName" : "logic-core",
+            "identifier" : "call-logic",
+            "content" : {
+              "itemType" : {
+                "type" : "literal",
+                "literal" : "logic"
+              },
+              "logicRef" : {
+                "type" : "ref",
+                "literal" : "QR8Z9PHP"
+              },
+              "parameters" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "NE6RHLZR"
+                    },
+                    "value" : {
+                      "type" : "expression",
+                      "expression" : "JIZGMBV9"
+                    }
+                  }
+                } ]
+              },
+              "returnValues" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "MSRTXMA3"
+                    },
+                    "variable" : {
+                      "type" : "variable",
+                      "variable" : ""
+                    }
+                  }
+                } ]
+              }
+            },
+            "attributes" : {
+              "position" : {
+                "x" : 571.5,
+                "y" : 200
+              }
+            },
+            "logicId" : "L2VOBSLK"
+          }, {
+            "id" : "Y385ZRAH",
+            "pluginName" : "logic-core",
+            "identifier" : "call-logic",
+            "content" : {
+              "itemType" : {
+                "type" : "literal",
+                "literal" : "logic"
+              },
+              "logicRef" : {
+                "type" : "ref",
+                "literal" : "OY0D5RZH"
+              },
+              "parameters" : {
+                "type" : "structure",
+                "structure" : [ ]
+              },
+              "returnValues" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "DL947R8K"
+                    },
+                    "variable" : {
+                      "type" : "variable",
+                      "variable" : "J69PYV2V"
+                    }
+                  }
+                } ]
+              }
+            },
+            "attributes" : {
+              "position" : {
+                "x" : 1008.75,
+                "y" : 200
+              }
+            },
+            "logicId" : "L2VOBSLK"
+          } ],
+          "edges" : [ {
+            "id" : "RUNTJJG9",
+            "sourceId" : "QPWOR7P8",
+            "targetId" : "SLUW5LAU",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          }, {
+            "id" : "DGPQAER8",
+            "sourceId" : "SLUW5LAU",
+            "targetId" : "ZGGHU1TN",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          }, {
+            "id" : "XI9O3VIQ",
+            "sourceId" : "ZGGHU1TN",
+            "targetId" : "Y385ZRAH",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          }, {
+            "id" : "E9GQXOTU",
+            "sourceId" : "Y385ZRAH",
+            "targetId" : "VGUO3NXY",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          } ]
+        },
+        "targetEvent" : "click"
+      } ],
+      "properties" : [ {
+        "name" : "text",
+        "type" : "literal",
+        "literal" : "删除"
+      }, {
+        "name" : "enableNavigation",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "navigationType",
+        "type" : "literal",
+        "literal" : "external"
+      }, {
+        "name" : "targetPage",
+        "type" : "literal"
+      }, {
+        "name" : "href",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "parameterValues",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "target",
+        "type" : "literal",
+        "literal" : "_self"
+      }, {
+        "name" : "color",
+        "type" : "literal",
+        "literal" : "primary"
+      }, {
+        "name" : "shape",
+        "type" : "literal",
+        "literal" : "default"
+      }, {
+        "name" : "variant",
+        "type" : "literal",
+        "literal" : "solid"
+      }, {
+        "name" : "showIcon",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "iconPlacement",
+        "type" : "literal",
+        "literal" : "start"
+      }, {
+        "name" : "autoInsertSpace",
+        "type" : "literal",
+        "literal" : true
+      }, {
+        "name" : "disabled",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "loading",
+        "type" : "expression"
+      }, {
+        "name" : "canSubmitOnEnter",
+        "type" : "literal",
+        "literal" : true
+      } ],
+      "children" : [ ],
+      "description" : "",
+      "visible" : {
+        "type" : "expression",
+        "expression" : ""
+      }
+    }, {
+      "id" : "XM6O7VP4",
+      "name" : "按钮2",
+      "type" : "button",
+      "pluginName" : "component-ant-design",
+      "styles" : [ ],
+      "events" : [ {
+        "id" : "Y6JWD771",
+        "name" : "单击1",
+        "description" : "",
+        "variables" : [ ],
+        "parameters" : [ ],
+        "returnValues" : [ ],
+        "diagram" : {
+          "nodes" : [ {
+            "id" : "V4BK9S4D",
+            "name" : "开始",
+            "pluginName" : "",
+            "identifier" : "",
+            "attributes" : {
+              "position" : {
+                "x" : 80,
+                "y" : 200
+              }
+            },
+            "isStartPoint" : true
+          }, {
+            "id" : "HOHHBAMN",
+            "name" : "结束",
+            "pluginName" : "logic-core",
+            "identifier" : "return",
+            "attributes" : {
+              "position" : {
+                "x" : 1200,
+                "y" : 219.3333282470703
+              }
+            }
+          }, {
+            "id" : "AT39B37V",
+            "pluginName" : "logic-core",
+            "identifier" : "call-logic",
+            "content" : {
+              "logicRef" : {
+                "type" : "ref",
+                "literal" : "P7UD2R8A"
+              },
+              "parameters" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "TI2JLIBO"
+                    },
+                    "value" : {
+                      "type" : "structure",
+                      "structure" : {
+                        "GQ7XJZK0" : {
+                          "type" : "literal",
+                          "literal" : 1
+                        },
+                        "ZCBOOLF1" : {
+                          "type" : "literal",
+                          "literal" : 1111111111
+                        },
+                        "EDMA8RPA" : {
+                          "type" : "literal",
+                          "literal" : 111.111
+                        },
+                        "P6X2FH7M" : {
+                          "type" : "literal"
+                        },
+                        "SAOMSFXX" : {
+                          "type" : "literal",
+                          "literal" : "aaaaaaaaaaaaaaaaa"
+                        },
+                        "BVM2LFC8" : {
+                          "type" : "literal",
+                          "literal" : "2026-03-12"
+                        },
+                        "D2NG1MD1" : {
+                          "type" : "literal",
+                          "literal" : "13:57:27"
+                        },
+                        "DE78SU3Q" : {
+                          "type" : "literal",
+                          "literal" : "2026-03-12T05:57:30.300Z"
+                        },
+                        "R6AXUW3E" : {
+                          "type" : "literal",
+                          "literal" : "2026-03-12T05:57:32.700Z"
+                        },
+                        "Q0X5XN5I" : {
+                          "type" : "literal",
+                          "literal" : "2026-03-12T05:57:35.000Z"
+                        },
+                        "KAHDIRRM" : {
+                          "type" : "literal",
+                          "literal" : "new"
+                        },
+                        "TTJ8MQOF" : {
+                          "type" : "literal",
+                          "literal" : "ddddd"
+                        }
+                      }
+                    }
+                  }
+                } ]
+              },
+              "returnValues" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "RQLZSBPI"
+                    },
+                    "variable" : {
+                      "type" : "variable",
+                      "variable" : ""
+                    }
+                  }
+                } ]
+              },
+              "itemType" : {
+                "type" : "literal",
+                "literal" : "logic"
+              }
+            },
+            "attributes" : {
+              "position" : {
+                "x" : 474,
+                "y" : 219.3333282470703
+              }
+            },
+            "logicId" : "Y6JWD771"
+          }, {
+            "id" : "PEUGU9SB",
+            "pluginName" : "logic-core",
+            "identifier" : "call-logic",
+            "content" : {
+              "itemType" : {
+                "type" : "literal",
+                "literal" : "logic"
+              },
+              "logicRef" : {
+                "type" : "ref",
+                "literal" : "OY0D5RZH"
+              },
+              "parameters" : {
+                "type" : "structure",
+                "structure" : [ ]
+              },
+              "returnValues" : {
+                "type" : "structure",
+                "structure" : [ {
+                  "type" : "structure",
+                  "structure" : {
+                    "id" : {
+                      "type" : "literal",
+                      "literal" : "DL947R8K"
+                    },
+                    "variable" : {
+                      "type" : "variable",
+                      "variable" : "J69PYV2V"
+                    }
+                  }
+                } ]
+              }
+            },
+            "attributes" : {
+              "position" : {
+                "x" : 837,
+                "y" : 219.3333282470703
+              }
+            },
+            "logicId" : "Y6JWD771"
+          } ],
+          "edges" : [ {
+            "id" : "GBCWGHJJ",
+            "sourceId" : "V4BK9S4D",
+            "targetId" : "AT39B37V",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          }, {
+            "id" : "PH6LXAVX",
+            "sourceId" : "AT39B37V",
+            "targetId" : "PEUGU9SB",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          }, {
+            "id" : "RVSNIST9",
+            "sourceId" : "PEUGU9SB",
+            "targetId" : "HOHHBAMN",
+            "sourcePosition" : "right",
+            "targetPosition" : "left"
+          } ]
+        },
+        "targetEvent" : "click"
+      } ],
+      "properties" : [ {
+        "name" : "text",
+        "type" : "literal",
+        "literal" : "更新"
+      }, {
+        "name" : "enableNavigation",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "navigationType",
+        "type" : "literal",
+        "literal" : "external"
+      }, {
+        "name" : "targetPage",
+        "type" : "literal"
+      }, {
+        "name" : "href",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "parameterValues",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "target",
+        "type" : "literal",
+        "literal" : "_self"
+      }, {
+        "name" : "color",
+        "type" : "literal",
+        "literal" : "primary"
+      }, {
+        "name" : "shape",
+        "type" : "literal",
+        "literal" : "default"
+      }, {
+        "name" : "variant",
+        "type" : "literal",
+        "literal" : "solid"
+      }, {
+        "name" : "showIcon",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "iconPlacement",
+        "type" : "literal",
+        "literal" : "start"
+      }, {
+        "name" : "autoInsertSpace",
+        "type" : "literal",
+        "literal" : true
+      }, {
+        "name" : "disabled",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "loading",
+        "type" : "expression"
+      }, {
+        "name" : "canSubmitOnEnter",
+        "type" : "literal",
+        "literal" : true
+      } ],
+      "children" : [ ],
+      "description" : "",
+      "visible" : {
+        "type" : "expression",
+        "expression" : ""
+      }
+    }, {
+      "id" : "T352QQFS",
+      "name" : "文本24",
+      "type" : "text",
+      "pluginName" : "component-common",
+      "styles" : [ {
+        "pseudo" : "none",
+        "target" : "root",
+        "cssProperties" : [ {
+          "name" : "size",
+          "type" : "literal",
+          "literal" : {
+            "width" : "",
+            "height" : "",
+            "minWidth" : "",
+            "minHeight" : "",
+            "maxWidth" : "100%",
+            "maxHeight" : ""
+          }
+        }, {
+          "name" : "border",
+          "type" : "literal",
+          "literal" : { }
+        } ]
+      } ],
+      "events" : [ ],
+      "properties" : [ {
+        "name" : "text",
+        "type" : "expression",
+        "expression" : "GQ34XWVI"
+      }, {
+        "name" : "format",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "customFormat",
+        "type" : "literal",
+        "literal" : ""
+      }, {
+        "name" : "isHeader",
+        "type" : "literal",
+        "literal" : false
+      }, {
+        "name" : "level",
+        "type" : "literal",
+        "literal" : 1
+      }, {
+        "name" : "wrapping",
+        "type" : "literal",
+        "literal" : "normal"
+      }, {
+        "name" : "ellipsis",
+        "type" : "literal",
+        "literal" : false
+      } ],
+      "children" : [ ],
+      "description" : "",
+      "visible" : {
+        "type" : "expression",
+        "expression" : ""
+      }
+    } ],
+    "description" : "",
+    "visible" : {
+      "type" : "expression",
+      "expression" : ""
+    }
+  },
+  "platform" : "pc",
+  "variables" : [ {
+    "id" : "J69PYV2V",
+    "name" : "默认实体所有字段",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "List",
+      "genericTypes" : [ {
+        "typeId" : "X2K0HU8H"
+      } ]
+    },
+    "description" : ""
+  }, {
+    "id" : "RU5354RM",
+    "name" : "当前行",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "X2K0HU8H"
+    },
+    "description" : "",
+    "isParameter" : false
+  }, {
+    "id" : "GQ34XWVI",
+    "name" : "变量2",
+    "defaultValue" : {
+      "type" : "expression",
+      "structure" : {
+        "0" : {
+          "type" : "literal",
+          "literal" : 1
+        },
+        "1" : {
+          "type" : "literal",
+          "literal" : 2
+        }
+      }
+    },
+    "dataType" : {
+      "typeId" : "Map",
+      "genericTypes" : [ {
+        "typeId" : "Integer"
+      }, {
+        "typeId" : "Decimal"
+      } ]
+    },
+    "description" : ""
+  } ],
+  "events" : [ {
+    "id" : "CWTEQQ45",
+    "name" : "页面加载前1",
+    "description" : "",
+    "variables" : [ ],
+    "parameters" : [ ],
+    "returnValues" : [ ],
+    "diagram" : {
+      "nodes" : [ {
+        "id" : "VC900D7L",
+        "name" : "开始",
+        "pluginName" : "",
+        "identifier" : "",
+        "attributes" : {
+          "position" : {
+            "x" : 80,
+            "y" : 200
+          }
+        },
+        "isStartPoint" : true
+      }, {
+        "id" : "ES65PSJ2",
+        "name" : "结束",
+        "pluginName" : "logic-core",
+        "identifier" : "return",
+        "attributes" : {
+          "position" : {
+            "x" : 800,
+            "y" : 200
+          }
+        }
+      }, {
+        "id" : "Y4PSTDKQ",
+        "pluginName" : "logic-core",
+        "identifier" : "call-logic",
+        "content" : {
+          "logicRef" : {
+            "type" : "ref",
+            "literal" : "OY0D5RZH"
+          },
+          "parameters" : {
+            "type" : "structure",
+            "structure" : [ ]
+          },
+          "returnValues" : {
+            "type" : "structure",
+            "structure" : [ {
+              "type" : "structure",
+              "structure" : {
+                "id" : {
+                  "type" : "literal",
+                  "literal" : "DL947R8K"
+                },
+                "variable" : {
+                  "type" : "variable",
+                  "variable" : "J69PYV2V"
+                }
+              }
+            } ]
+          },
+          "itemType" : {
+            "type" : "literal",
+            "literal" : "logic"
+          }
+        },
+        "attributes" : {
+          "position" : {
+            "x" : 474,
+            "y" : 223.3333282470703
+          }
+        },
+        "logicId" : "CWTEQQ45"
+      } ],
+      "edges" : [ {
+        "id" : "Y6RGIWHP",
+        "sourceId" : "VC900D7L",
+        "targetId" : "Y4PSTDKQ",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      }, {
+        "id" : "QVFIKDMD",
+        "sourceId" : "Y4PSTDKQ",
+        "targetId" : "ES65PSJ2",
+        "sourcePosition" : "right",
+        "targetPosition" : "left"
+      } ]
+    },
+    "targetEvent" : "enter"
+  } ],
+  "logics" : [ ],
+  "description" : "",
+  "externalCssFiles" : [ ],
+  "externalJsFiles" : [ ],
+  "type" : "page"
+}

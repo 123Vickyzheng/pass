@@ -1,0 +1,165 @@
+{
+  "id" : "H7SZD24F",
+  "name" : "创建默认实体",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "DMR74Z8K",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "X2K0HU8H"
+    }
+  } ],
+  "returnValues" : [ {
+    "id" : "DRTHV26D",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "CDHPFGIO",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "B57QC2JZ",
+      "name" : "创建默认实体",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-insert",
+      "content" : {
+        "entityType" : {
+          "typeId" : "X2K0HU8H"
+        },
+        "variable" : {
+          "type" : "variable",
+          "variable" : "DMR74Z8K"
+        },
+        "returnTo" : {
+          "type" : "variable",
+          "variable" : "DRTHV26D"
+        },
+        "propertyMappers" : [ {
+          "id" : "5f6359f1-bd97-4dbf-b953-6c0c5cad5640",
+          "target" : {
+            "type" : "literal",
+            "literal" : "ZCBOOLF1"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "DMR74Z8K.ZCBOOLF1"
+          }
+        }, {
+          "id" : "595c7263-0bdc-4311-97b9-cbc0fc8d3824",
+          "target" : {
+            "type" : "literal",
+            "literal" : "EDMA8RPA"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "DMR74Z8K.EDMA8RPA"
+          }
+        }, {
+          "id" : "b55d4ac6-a61e-4a3a-84b6-654f8b48c2ae",
+          "target" : {
+            "type" : "literal",
+            "literal" : "P6X2FH7M"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "DMR74Z8K.P6X2FH7M"
+          }
+        }, {
+          "id" : "9bbede2d-6243-4c1f-b573-25822dcd7951",
+          "target" : {
+            "type" : "literal",
+            "literal" : "SAOMSFXX"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "DMR74Z8K.SAOMSFXX"
+          }
+        }, {
+          "id" : "e2665c9a-e6c3-499c-8810-cafe8fc1eba4",
+          "target" : {
+            "type" : "literal",
+            "literal" : "BVM2LFC8"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "DMR74Z8K.BVM2LFC8"
+          }
+        }, {
+          "id" : "dd794ef9-7bef-4985-8c87-4d102e3537b1",
+          "target" : {
+            "type" : "literal",
+            "literal" : "D2NG1MD1"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "DMR74Z8K.D2NG1MD1"
+          }
+        }, {
+          "id" : "248dcb94-1a1b-4e19-87c2-7aeca02dea6a",
+          "target" : {
+            "type" : "literal",
+            "literal" : "DE78SU3Q"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "DMR74Z8K.DE78SU3Q"
+          }
+        }, {
+          "id" : "c0096919-b3b2-4bc9-a75d-6f83f80cf2bf",
+          "target" : {
+            "type" : "literal",
+            "literal" : "GQ7XJZK0"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "DMR74Z8K.GQ7XJZK0"
+          }
+        } ]
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 219,
+          "y" : 179
+        }
+      }
+    }, {
+      "id" : "EGXA7X6Z",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 581,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "OTSDM6RV",
+      "sourceId" : "CDHPFGIO",
+      "targetId" : "B57QC2JZ",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "RG7M96ET",
+      "sourceId" : "B57QC2JZ",
+      "targetId" : "EGXA7X6Z",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

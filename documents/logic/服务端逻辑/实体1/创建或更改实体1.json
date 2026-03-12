@@ -1,0 +1,181 @@
+{
+  "id" : "A4RBLTEV",
+  "name" : "创建或更改实体1",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "HE2F911Z",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "ULGLZQQJ"
+    }
+  } ],
+  "returnValues" : [ ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "PNHLAR3J",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "F9VJAIKQ",
+      "name" : "创建或更改实体1",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-upsert",
+      "content" : {
+        "entityType" : {
+          "typeId" : "ULGLZQQJ"
+        },
+        "variable" : {
+          "type" : "variable",
+          "variable" : "HE2F911Z"
+        },
+        "condition" : {
+          "conditionType" : 0,
+          "conditionItems" : [ {
+            "conditionType" : 2,
+            "conditionItems" : null,
+            "type" : 3,
+            "identifier" : "ULGLZQQJ.N54DEHW7",
+            "name" : "id",
+            "operator" : 0,
+            "value" : {
+              "type" : 6,
+              "identifier" : "HE2F911Z.N54DEHW7",
+              "name" : null
+            }
+          } ]
+        },
+        "propertyMappers" : [ {
+          "id" : "ec31ac34-2224-4ed5-b12d-dd0503072036",
+          "target" : {
+            "type" : "literal",
+            "literal" : "PZ1XJVKB"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.PZ1XJVKB"
+          }
+        }, {
+          "id" : "e631f8bc-f9fa-4a8e-85e3-a112717df46f",
+          "target" : {
+            "type" : "literal",
+            "literal" : "ZZWPZELH"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.ZZWPZELH"
+          }
+        }, {
+          "id" : "7c893c71-34f1-4c57-9daf-c50c5154c485",
+          "target" : {
+            "type" : "literal",
+            "literal" : "IC8K9EP7"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.IC8K9EP7"
+          }
+        }, {
+          "id" : "6476fa94-6b5a-4c9d-9605-b01ab039fb0b",
+          "target" : {
+            "type" : "literal",
+            "literal" : "PR0JK5D2"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.PR0JK5D2"
+          }
+        }, {
+          "id" : "f39d9e7a-5972-4d29-8a06-57816e9f4f0e",
+          "target" : {
+            "type" : "literal",
+            "literal" : "QIXSXLG6"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.QIXSXLG6"
+          }
+        }, {
+          "id" : "c0064a7a-6514-4733-a2e4-a6a085102d65",
+          "target" : {
+            "type" : "literal",
+            "literal" : "R4WUII84"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.R4WUII84"
+          }
+        }, {
+          "id" : "1bfa5753-511e-4936-bfe1-9c7c509c5ce0",
+          "target" : {
+            "type" : "literal",
+            "literal" : "HBATD3BA"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.HBATD3BA"
+          }
+        }, {
+          "id" : "9f8c5dd8-301a-4298-97fb-00cf4f78ed0b",
+          "target" : {
+            "type" : "literal",
+            "literal" : "GTG4TFVM"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.GTG4TFVM"
+          }
+        }, {
+          "id" : "1a6a4bfe-86c9-43a2-8400-18efea608b77",
+          "target" : {
+            "type" : "literal",
+            "literal" : "N54DEHW7"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "HE2F911Z.N54DEHW7"
+          }
+        } ]
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 122,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "MB8CIAT2",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 382,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "VTVQX3SE",
+      "sourceId" : "PNHLAR3J",
+      "targetId" : "F9VJAIKQ",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "EEDX9WHI",
+      "sourceId" : "F9VJAIKQ",
+      "targetId" : "MB8CIAT2",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

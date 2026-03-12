@@ -1,0 +1,143 @@
+{
+  "id" : "QR8Z9PHP",
+  "name" : "删除默认实体",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "NE6RHLZR",
+    "name" : "主键",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "returnValues" : [ {
+    "id" : "MSRTXMA3",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "S2VFRQJG",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "IVLKJ2BD",
+      "name" : "删除默认实体",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-delete",
+      "content" : {
+        "entityType" : {
+          "typeId" : "X2K0HU8H"
+        },
+        "condition" : {
+          "conditionType" : 0,
+          "conditionItems" : [ {
+            "conditionType" : 2,
+            "conditionItems" : null,
+            "type" : 3,
+            "identifier" : "X2K0HU8H.GQ7XJZK0",
+            "name" : "id",
+            "operator" : 0,
+            "value" : {
+              "type" : 6,
+              "identifier" : "NE6RHLZR",
+              "name" : null
+            }
+          } ]
+        },
+        "returnTo" : {
+          "type" : "variable",
+          "variable" : "MSRTXMA3"
+        }
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 220,
+          "y" : 185
+        }
+      }
+    }, {
+      "id" : "N37NC8RB",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 1163,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "TLJQX8A0",
+      "pluginName" : "logic-core",
+      "identifier" : "call-logic",
+      "content" : {
+        "itemType" : {
+          "type" : "literal",
+          "literal" : "logic"
+        },
+        "logicRef" : {
+          "type" : "ref",
+          "literal" : "OY0D5RZH"
+        },
+        "parameters" : {
+          "type" : "structure",
+          "structure" : [ ]
+        },
+        "returnValues" : {
+          "type" : "structure",
+          "structure" : [ {
+            "type" : "structure",
+            "structure" : {
+              "id" : {
+                "type" : "literal",
+                "literal" : "DL947R8K"
+              },
+              "variable" : {
+                "type" : "variable",
+                "variable" : ""
+              }
+            }
+          } ]
+        }
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 532.5,
+          "y" : 203
+        }
+      },
+      "logicId" : "QR8Z9PHP"
+    } ],
+    "edges" : [ {
+      "id" : "KYCDTGDL",
+      "sourceId" : "S2VFRQJG",
+      "targetId" : "IVLKJ2BD",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "MGSK2QRA",
+      "sourceId" : "IVLKJ2BD",
+      "targetId" : "TLJQX8A0",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "UYP5M723",
+      "sourceId" : "TLJQX8A0",
+      "targetId" : "N37NC8RB",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

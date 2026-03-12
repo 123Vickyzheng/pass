@@ -1,0 +1,42 @@
+{
+  "id" : "JQGTXM8M",
+  "dataSourceId" : "ZWBY14AI",
+  "schema" : "sys",
+  "tableName" : "trace_xe_action_map",
+  "name" : "trace_xe_action_map",
+  "showBuiltinColumns" : false,
+  "columns" : [ {
+    "id" : "RJUKBQFX",
+    "columnName" : "trace_column_id",
+    "name" : "trace_column_id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "O7K4SLIX",
+    "columnName" : "package_name",
+    "name" : "package_name",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "XTUR3OUL",
+    "columnName" : "xe_action_name",
+    "name" : "xe_action_name",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  } ]
+}

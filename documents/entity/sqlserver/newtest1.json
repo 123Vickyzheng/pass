@@ -1,0 +1,170 @@
+{
+  "id" : "L17E4QAQ",
+  "dataSourceId" : "ZWBY14AI",
+  "schema" : "dbo",
+  "tableName" : "newtest1",
+  "name" : "newtest1",
+  "showBuiltinColumns" : false,
+  "columns" : [ {
+    "type" : "entityColumnModel",
+    "id" : "TZ6F4UCA",
+    "name" : "id",
+    "columnName" : "id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "dbType" : "INT IDENTITY",
+    "jdbcType" : 4,
+    "columnLength" : 10,
+    "precision" : 10,
+    "scale" : 0,
+    "isPrimaryKey" : true,
+    "isUnique" : true,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : null,
+    "isAutoIncrement" : true,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "V644PUE7",
+    "name" : "Integer",
+    "columnName" : "Integer",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "dbType" : "INT",
+    "jdbcType" : 4,
+    "columnLength" : 10,
+    "precision" : 10,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "G4W8LPNL",
+    "name" : "Decimal",
+    "columnName" : "Decimal",
+    "dataType" : {
+      "typeId" : "Decimal"
+    },
+    "dbType" : "DECIMAL",
+    "jdbcType" : 3,
+    "columnLength" : 15,
+    "precision" : 15,
+    "scale" : 2,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "RPBGFFHK",
+    "name" : "创建时间",
+    "columnName" : "phx_created_at",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "DATETIMEOFFSET",
+    "jdbcType" : -155,
+    "columnLength" : 34,
+    "precision" : 34,
+    "scale" : 7,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : "(getdate())",
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "ZMX2ZPEP",
+    "name" : "更新时间",
+    "columnName" : "phx_updated_at",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "DATETIMEOFFSET",
+    "jdbcType" : -155,
+    "columnLength" : 34,
+    "precision" : 34,
+    "scale" : 7,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : "(getdate())",
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "ZB0CPFV7",
+    "name" : "创建人",
+    "columnName" : "phx_created_by",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -9,
+    "columnLength" : 255,
+    "precision" : 255,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : true,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "HPRVXQ8L",
+    "name" : "更新人",
+    "columnName" : "phx_updated_by",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "NVARCHAR",
+    "jdbcType" : -9,
+    "columnLength" : 255,
+    "precision" : 255,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : true,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  } ],
+  "type" : "entityModel",
+  "columnExtensionLoaded" : true,
+  "originalPath" : "/sqlserver/newtest1",
+  "indexes" : [ {
+    "indexName" : "PK__newtest1__3213E83FFBEFC01F",
+    "isUnique" : true,
+    "isPrimary" : true,
+    "isUnEditable" : null,
+    "description" : "主键索引",
+    "indexColumns" : [ {
+      "columnId" : "TZ6F4UCA",
+      "order" : "ASC"
+    } ]
+  } ]
+}

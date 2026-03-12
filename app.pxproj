@@ -1,0 +1,13 @@
+{
+  "projectType" : "Collaboration",
+  "appName" : "0301",
+  "ideVersion" : "0.0.1",
+  "branchName" : "master",
+  "repoUrl" : "https://github.com/123Vickyzheng/pass.git",
+  "theme-resources" : {
+    "currentTheme" : "phoenix.builtin.dark-night"
+  },
+  "page" : {
+    "defaultStartupPage" : "NLOMT290"
+  }
+}

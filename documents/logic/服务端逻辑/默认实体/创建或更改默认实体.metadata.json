@@ -1,0 +1,15 @@
+{
+  "id" : "KUWRCZ1N",
+  "name" : "创建或更改默认实体",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ {
+    "id" : "J4AJ98IF",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "X2K0HU8H"
+    }
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ ]
+}

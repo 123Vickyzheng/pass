@@ -1,0 +1,20 @@
+{
+  "EUUWJPNY" : "每页条数",
+  "AWV1I0B0" : "跳过条数",
+  "X2K0HU8H" : "默认实体",
+  "DL947R8K" : "数据列表",
+  "X9YB8QH6" : "数据总行数",
+  "GQ7XJZK0" : "id",
+  "ZCBOOLF1" : "Integer",
+  "EDMA8RPA" : "Decimal",
+  "P6X2FH7M" : "Boolean",
+  "SAOMSFXX" : "String",
+  "BVM2LFC8" : "Date",
+  "D2NG1MD1" : "Time",
+  "DE78SU3Q" : "DateTime",
+  "R6AXUW3E" : "创建时间",
+  "Q0X5XN5I" : "更新时间",
+  "KAHDIRRM" : "创建人",
+  "TTJ8MQOF" : "更新人",
+  "N2RY8KXC" : "默认数据源"
+}

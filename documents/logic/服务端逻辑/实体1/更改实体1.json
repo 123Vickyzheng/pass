@@ -1,0 +1,181 @@
+{
+  "id" : "O4DSHNIC",
+  "name" : "更改实体1",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "QFNV1J12",
+    "name" : "实体",
+    "dataType" : {
+      "typeId" : "ULGLZQQJ"
+    }
+  } ],
+  "returnValues" : [ {
+    "id" : "L37F9TSS",
+    "name" : "返回值",
+    "dataType" : {
+      "typeId" : "Integer"
+    }
+  } ],
+  "allowExpressionCall" : false,
+  "enableTransaction" : true,
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "RQV7KMI6",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 30,
+          "y" : 216
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "TT93AVVO",
+      "name" : "更改实体1",
+      "pluginName" : "logic-data-operation",
+      "identifier" : "data-update",
+      "content" : {
+        "entityType" : {
+          "typeId" : "ULGLZQQJ"
+        },
+        "variable" : {
+          "type" : "variable",
+          "variable" : "QFNV1J12"
+        },
+        "condition" : {
+          "conditionType" : 0,
+          "conditionItems" : [ {
+            "conditionType" : 2,
+            "conditionItems" : null,
+            "type" : 3,
+            "identifier" : "ULGLZQQJ.N54DEHW7",
+            "name" : "id",
+            "operator" : 0,
+            "value" : {
+              "type" : 6,
+              "identifier" : "QFNV1J12.N54DEHW7",
+              "name" : null
+            }
+          } ]
+        },
+        "returnTo" : {
+          "type" : "variable",
+          "variable" : "L37F9TSS"
+        },
+        "propertyMappers" : [ {
+          "id" : "d51efa96-2804-4516-a2aa-be7fb1899dd2",
+          "target" : {
+            "type" : "literal",
+            "literal" : "PZ1XJVKB"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "QFNV1J12.PZ1XJVKB"
+          }
+        }, {
+          "id" : "f9884da0-7076-46e9-b899-ceccdc167d94",
+          "target" : {
+            "type" : "literal",
+            "literal" : "ZZWPZELH"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "QFNV1J12.ZZWPZELH"
+          }
+        }, {
+          "id" : "b60038a0-c2c3-4234-9f96-9ecc3d8992fc",
+          "target" : {
+            "type" : "literal",
+            "literal" : "IC8K9EP7"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "QFNV1J12.IC8K9EP7"
+          }
+        }, {
+          "id" : "07a84099-6bb0-43df-99be-a7f0742c817c",
+          "target" : {
+            "type" : "literal",
+            "literal" : "PR0JK5D2"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "QFNV1J12.PR0JK5D2"
+          }
+        }, {
+          "id" : "4ac41b94-e30b-4d91-9169-84833c85a3e3",
+          "target" : {
+            "type" : "literal",
+            "literal" : "QIXSXLG6"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "QFNV1J12.QIXSXLG6"
+          }
+        }, {
+          "id" : "3ba7611b-af11-47c1-8520-e571f43574d5",
+          "target" : {
+            "type" : "literal",
+            "literal" : "R4WUII84"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "QFNV1J12.R4WUII84"
+          }
+        }, {
+          "id" : "cf1b02d2-e3ab-4c95-a730-061139d047d8",
+          "target" : {
+            "type" : "literal",
+            "literal" : "HBATD3BA"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "QFNV1J12.HBATD3BA"
+          }
+        }, {
+          "id" : "cc102224-1106-4541-9383-a43f893d7164",
+          "target" : {
+            "type" : "literal",
+            "literal" : "GTG4TFVM"
+          },
+          "source" : {
+            "type" : "expression",
+            "expression" : "QFNV1J12.GTG4TFVM"
+          }
+        } ]
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 122,
+          "y" : 216
+        }
+      }
+    }, {
+      "id" : "GU3BGEXZ",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 382,
+          "y" : 216
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "W31LUNNP",
+      "sourceId" : "RQV7KMI6",
+      "targetId" : "TT93AVVO",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "XP5MP2SE",
+      "sourceId" : "TT93AVVO",
+      "targetId" : "GU3BGEXZ",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}
