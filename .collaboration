@@ -618,4 +618,16 @@
   "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "HFCHJZOP"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "集成/开放接口/鉴权方式/鉴权方式1",
+  "state" : "New",
+  "lockedBy" : {
+    "username" : "xa-dd3-vickyzhe",
+    "email" : "vicky.zheng@developertools.com"
+  },
+  "lockDateTime" : "2026-03-12T09:18:34.7812542Z",
+  "resourcePaths" : [ "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.json", "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.metadata.json", "documents/logic/集成/开放接口/鉴权方式/鉴权方式1.refId.json", "documents/ref-object/FROFF93Q.json", "documents/ref-object/FROFF93Q.metadata.json" ],
+  "resourceType" : "Document",
+  "resourceId" : "FROFF93Q"
 } ]
