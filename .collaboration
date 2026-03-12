@@ -14,6 +14,24 @@
   "state" : "Unlocked",
   "resourceType" : "File"
 }, {
+  "moduleType" : "global-event-handler",
+  "moduleName" : "客户端全局事件",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "client-global-event"
+}, {
+  "moduleType" : "global-event-handler",
+  "moduleName" : "客户端全局事件/requestCompleted",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "ZK6AXD86"
+}, {
+  "moduleType" : "global-event-handler",
+  "moduleName" : "服务端全局事件",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "server-global-event"
+}, {
   "moduleType" : "theme",
   "moduleName" : "商务主题",
   "state" : "Unlocked",
@@ -50,23 +68,65 @@
   "resourceType" : "Document",
   "resourceId" : "phoenix.builtin.normal"
 }, {
-  "moduleType" : "global-event-handler",
-  "moduleName" : "客户端全局事件",
+  "moduleType" : "page",
+  "moduleName" : "PC",
   "state" : "Unlocked",
   "resourceType" : "Folder",
-  "resourceId" : "client-global-event"
+  "resourceId" : "GE8V17XY"
 }, {
-  "moduleType" : "global-event-handler",
-  "moduleName" : "客户端全局事件/requestCompleted",
+  "moduleType" : "page",
+  "moduleName" : "PC/系统页面",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "Q8OR0P1I"
+}, {
+  "moduleType" : "page",
+  "moduleName" : "PC/系统页面/401无权限页面",
   "state" : "Unlocked",
   "resourceType" : "Document",
-  "resourceId" : "ZK6AXD86"
+  "resourceId" : "YR7X1NU4"
 }, {
-  "moduleType" : "global-event-handler",
-  "moduleName" : "服务端全局事件",
+  "moduleType" : "page",
+  "moduleName" : "PC/系统页面/404未发现页面",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "MAEDHUVA"
+}, {
+  "moduleType" : "page",
+  "moduleName" : "PC/系统页面/登录页",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "S5MNPDPN"
+}, {
+  "moduleType" : "page",
+  "moduleName" : "PC/页面1",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "RT75I6R2"
+}, {
+  "moduleType" : "page",
+  "moduleName" : "PC/默认实体页面",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "NLOMT290"
+}, {
+  "moduleType" : "page",
+  "moduleName" : "移动端",
   "state" : "Unlocked",
   "resourceType" : "Folder",
-  "resourceId" : "server-global-event"
+  "resourceId" : "QM1D3VDS"
+}, {
+  "moduleType" : "page",
+  "moduleName" : "移动端/页面",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "YAUNGWL5"
+}, {
+  "moduleType" : "page",
+  "moduleName" : "移动端/页面组件",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "L13KX3XC"
 }, {
   "moduleType" : "static-resource",
   "moduleName" : "文件",
@@ -74,11 +134,59 @@
   "resourceType" : "Folder",
   "resourceId" : "TJ3EW0N4"
 }, {
+  "moduleType" : "static-resource",
+  "moduleName" : "文件/文件夹1111",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "ASIENS6U"
+}, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑",
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "server"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "T9P9RU9D"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns/创建allcolumns",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "CNG3C7K0"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns/创建或更改allcolumns",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "K6VNDEVE"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns/删除allcolumns",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "XP0JA7GU"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns/更改allcolumns",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "ZONZVF0A"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns/查询allcolumns",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "VH5Y1229"
+}, {
+  "moduleType" : "logic",
+  "moduleName" : "服务端逻辑/allcolumns/查询allcolumns详情",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "KMEGHD8E"
 }, {
   "moduleType" : "logic",
   "moduleName" : "服务端逻辑/实体1",
@@ -189,48 +297,6 @@
   "resourceId" : "IZKXDVL5"
 }, {
   "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "T9P9RU9D"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns/创建allcolumns",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "CNG3C7K0"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns/创建或更改allcolumns",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "K6VNDEVE"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns/更改allcolumns",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "ZONZVF0A"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns/删除allcolumns",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "XP0JA7GU"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns/查询allcolumns",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "VH5Y1229"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "服务端逻辑/allcolumns/查询allcolumns详情",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "KMEGHD8E"
-}, {
-  "moduleType" : "logic",
   "moduleName" : "集成",
   "state" : "Unlocked",
   "resourceType" : "Folder",
@@ -249,6 +315,12 @@
   "resourceId" : "open-api-auth-method"
 }, {
   "moduleType" : "logic",
+  "moduleName" : "集成/开放接口/文件夹1",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "ZUU4ZCVI"
+}, {
+  "moduleType" : "logic",
   "moduleName" : "集成/外部接口",
   "state" : "Unlocked",
   "resourceType" : "Folder",
@@ -261,6 +333,12 @@
   "resourceId" : "external-api-auth-method"
 }, {
   "moduleType" : "logic",
+  "moduleName" : "集成/外部接口/外部接口1",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "HFCHJZOP"
+}, {
+  "moduleType" : "logic",
   "moduleName" : "计划任务",
   "state" : "Unlocked",
   "resourceType" : "Folder",
@@ -271,66 +349,6 @@
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "client"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "PC",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "GE8V17XY"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "PC/系统页面",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "Q8OR0P1I"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "PC/系统页面/401无权限页面",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "YR7X1NU4"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "PC/系统页面/404未发现页面",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "MAEDHUVA"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "PC/系统页面/登录页",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "S5MNPDPN"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "PC/页面1",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "RT75I6R2"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "PC/默认实体页面",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "NLOMT290"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "移动端",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "QM1D3VDS"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "移动端/页面",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "YAUNGWL5"
-}, {
-  "moduleType" : "page",
-  "moduleName" : "移动端/页面组件",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "L13KX3XC"
 }, {
   "moduleType" : "type",
   "moduleName" : "枚举",
@@ -351,10 +369,28 @@
   "resourceId" : "server-global-variable"
 }, {
   "moduleType" : "global-variable",
+  "moduleName" : "服务端全局变量/服务端全局变量1",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "ZJY947SD"
+}, {
+  "moduleType" : "global-variable",
   "moduleName" : "客户端全局变量",
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "client-global-variable"
+}, {
+  "moduleType" : "global-variable",
+  "moduleName" : "客户端全局变量/文件夹1aaa",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "QC5LT7OT"
+}, {
+  "moduleType" : "global-variable",
+  "moduleName" : "客户端全局变量/文件夹1aaa/客户端全局变量1",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "V6FDM914"
 }, {
   "moduleType" : "datasource",
   "moduleName" : "默认数据源",
@@ -367,6 +403,12 @@
   "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "BNZFT4X8"
+}, {
+  "moduleType" : "datasource",
+  "moduleName" : "oracle",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "I8V5U0CS"
 }, {
   "moduleType" : "datasource",
   "moduleName" : "sqlserver",
@@ -428,6 +470,12 @@
   "resourceId" : "O82ZYP6U"
 }, {
   "moduleType" : "entity",
+  "moduleName" : "oracle",
+  "state" : "Unlocked",
+  "resourceType" : "Folder",
+  "resourceId" : "H51QUVAT"
+}, {
+  "moduleType" : "entity",
   "moduleName" : "sqlserver",
   "state" : "Unlocked",
   "resourceType" : "Folder",
@@ -482,6 +530,12 @@
   "resourceId" : "ON9Z2H9D"
 }, {
   "moduleType" : "entity-relation",
+  "moduleName" : "sqlserver/0312_1_id_allcolumns_id",
+  "state" : "Unlocked",
+  "resourceType" : "Document",
+  "resourceId" : "KO8G2PV2"
+}, {
+  "moduleType" : "entity-relation",
   "moduleName" : "sqlserver/0312_1_Integer_0312_1_id",
   "state" : "Unlocked",
   "resourceType" : "Document",
@@ -500,80 +554,14 @@
   "resourceId" : "BL3YTIUN"
 }, {
   "moduleType" : "entity-relation",
-  "moduleName" : "sqlserver",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "OH2O26HA"
-}, {
-  "moduleType" : "entity-relation",
-  "moduleName" : "sqlserver/0312_1_id_allcolumns_id",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "LI5V0I2V"
-}, {
-  "moduleType" : "datasource",
-  "moduleName" : "oracle",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "I8V5U0CS"
-}, {
-  "moduleType" : "entity",
-  "moduleName" : "oracle",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "H51QUVAT"
-}, {
-  "moduleType" : "entity-relation",
   "moduleName" : "oracle",
   "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "OHK237FY"
 }, {
-  "moduleType" : "global-variable",
-  "moduleName" : "服务端全局变量/服务端全局变量1",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "ZJY947SD"
-}, {
-  "moduleType" : "global-variable",
-  "moduleName" : "客户端全局变量/文件夹1aaa",
+  "moduleType" : "entity-relation",
+  "moduleName" : "sqlserver",
   "state" : "Unlocked",
   "resourceType" : "Folder",
-  "resourceId" : "QC5LT7OT"
-}, {
-  "moduleType" : "global-variable",
-  "moduleName" : "客户端全局变量/文件夹1aaa/客户端全局变量1",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "V6FDM914"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "集成/开放接口/文件夹1",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "ZUU4ZCVI"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "集成/外部接口/外部接口1",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "HFCHJZOP"
-}, {
-  "moduleType" : "logic",
-  "moduleName" : "集成/开放接口/鉴权方式/鉴权方式1",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "FROFF93Q"
-}, {
-  "moduleType" : "static-resource",
-  "moduleName" : "文件/文件夹",
-  "state" : "Unlocked",
-  "resourceType" : "Folder",
-  "resourceId" : "FKVL31H7"
-}, {
-  "moduleType" : "static-resource",
-  "moduleName" : "文件/文件夹/0311_6_副本3.phx",
-  "state" : "Unlocked",
-  "resourceType" : "Document",
-  "resourceId" : "HMP2R2F4"
+  "resourceId" : "OH2O26HA"
 } ]
